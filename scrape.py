@@ -1,5 +1,3 @@
-import time
-
 from selenium import webdriver
 from lxml import html
 
@@ -21,6 +19,7 @@ base_imdb_url = 'https://www.imdb.com'
 # query = 'Money Heist'
 query = 'The 100'
 
+
 def load_page(url):
     chrome_options = webdriver.ChromeOptions()
     chrome_options.add_argument('--headless')
@@ -31,10 +30,12 @@ def load_page(url):
     driver.close()
     return html
 
+
 def req(url: str):
     page = load_page(url)
     tree = html.fromstring(page)
     return tree
+
 
 def retry_xpaths(url, xpath, retries=RETRIES):
     for i in range(retries):
@@ -44,12 +45,13 @@ def retry_xpaths(url, xpath, retries=RETRIES):
             elem = result[0]
             return elem
         except:
-            print(f'retrying {i+1}/{retries}')
+            print(f'retrying {i + 1}/{retries}')
             continue
+
 
 def find_imdb_page(search: str):
     return retry_xpaths(url=f'{base_imdb_url}/find?q={search}',
-                 xpath='''//*[@id='__next']/main/div[2]/div[3]/section/div/div[1]/section[2]/div[2]/ul/li[1]/div[2]/div[1]/a''')
+                        xpath='''//*[@id='__next']/main/div[2]/div[3]/section/div/div[1]/section[2]/div[2]/ul/li[1]/div[2]/div[1]/a''')
 
 
 pid = find_imdb_page(query)
@@ -61,16 +63,16 @@ print(f'''Found imdb page for search query '{query}' with page id '{pid}''')
 print('Loading seasons cnt...')
 
 seasons = retry_xpaths(url=f'https://www.imdb.com/title/{pid}/episodes?season=1',
-                    xpath='''//*[@id='bySeason']''')
+                       xpath='''//*[@id='bySeason']''')
 num_seasons = len(seasons.value_options)
 
 print(f'Found {num_seasons} seasons')
 
 df = pd.DataFrame()
-for seas in range(1, num_seasons+1):
+for seas in range(1, num_seasons + 1):
     retriesLeft = RETRIES
     while retriesLeft > 0:
-        print(f'Loading Season {seas} ({RETRIES-retriesLeft+1}/{RETRIES})...')
+        print(f'Loading Season {seas} ({RETRIES - retriesLeft + 1}/{RETRIES})...')
         retriesLeft -= 1
         tree = req(f'https://www.imdb.com/title/{pid}/episodes?season={seas}')
         for ep in range(1, MAX_EPISODES_TRY):

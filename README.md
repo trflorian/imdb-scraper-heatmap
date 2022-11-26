@@ -22,7 +22,7 @@ The following table shows transposed data for the series "Breaking Bad" which is
 The following image shows an example of the heatmap that can be generated from the above table data. 
 The heatmap in this example saved to `heatmaps/Breaking Bad.png`. 
 
-![](heatmaps/Breaking Bad.png)
+![](heatmaps/Breaking_Bad.png)
 
 ## Quickstart
 

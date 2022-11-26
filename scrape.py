@@ -94,4 +94,7 @@ for seas in range(1, num_seasons + 1):
                 break
 
 print(f'Imported {num_seasons} seasons with a total of {len(df.index)} episodes')
-df.to_csv(f'data/{query}.csv', index=False)
+
+# remove whitespaces from file names
+fn = query.replace(" ", "_")
+df.to_csv(f'data/{fn}.csv', index=False)

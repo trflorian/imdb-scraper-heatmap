@@ -1,5 +1,7 @@
 import os
 
+import argparse
+
 from tqdm import tqdm
 
 import numpy as np
@@ -11,10 +13,10 @@ matplotlib.use('TkAgg')
 
 dark_col = (0.16, 0.16, 0.16, 1.0)
 
-def img_path(series):
+def img_path(series: str) -> str:
     return f'heatmaps/{series}.png'
 
-def heatmap_plot(series: str, show=True, save=True, dark_mode=False):
+def heatmap_plot(series: str, show: bool, save: bool, dark_mode: bool) -> None:
 
     # read ratings for series
     df = pd.read_csv(f'data/{series}.csv')
@@ -74,8 +76,8 @@ def heatmap_plot(series: str, show=True, save=True, dark_mode=False):
     plt.imshow(heatmap)
 
     # optionally save or display the plot
+    fn = img_path(series)
     if save:
-        fn = img_path(series)
         if dark_mode:
             plt.savefig(fn, facecolor=dark_col)
         else:
@@ -84,16 +86,31 @@ def heatmap_plot(series: str, show=True, save=True, dark_mode=False):
         plt.show()
 
 def main():
-    show = True
-    save = True
-    override = True
-    dark_mode = False
+    # define and parse args
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-s', '--show', action='store_true', help='show the heatmap plot instead of saving it')
+    parser.add_argument('-d', '--dark', action='store_true', help='use dark mode for the plot style')
+    parser.add_argument('-o', '--override', action='store_true', help='override existing plots, only used if show flag is not set')
+    parser.add_argument('-n', '--name', type=str, default=None,
+                        help='name of the series, if not set the whole data directory will be scanned')
+    args = parser.parse_args()
 
-    # load all series in data folder
-    all_series = ['.'.join(s.split('.')[:-1]) for s in os.listdir('data')]
+    # config from args
+    show = args.show
+    save = not show
+    override = args.override
+    dark_mode = args.dark
+    custom_series = args.name
+
+    # if custom series name supplied from arguments, use this. otherwise load all series from data directory
+    if custom_series is not None:
+        all_series = [custom_series]
+    else:
+        # load all series in data folder
+        all_series = ['.'.join(s.split('.')[:-1]) for s in os.listdir('data')]
 
     # check override
-    if len(all_series) > 0 and not override:
+    if len(all_series) > 0 and save and not override:
         tot_before = len(all_series)
         all_series = [s for s in all_series if not os.path.isfile(img_path(s))]
         tot_after = len(all_series)

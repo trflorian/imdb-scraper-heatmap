@@ -52,7 +52,7 @@ def retry_xpaths(url, xpath, retries=RETRIES):
             result = tree.xpath(xpath)
             elem = result[0]
             return elem
-        except:
+        except IndexError:
             print(f'retrying {i + 1}/{retries}')
             continue
 
@@ -68,7 +68,7 @@ pid = pid.split('/')[2]
 
 print(f'''Found imdb page for search query '{query}' with page id '{pid}''')
 
-print('Loading seasons cnt...')
+print('Loading number of seasons...')
 
 seasons = retry_xpaths(url=f'https://www.imdb.com/title/{pid}/episodes?season=1',
                        xpath='''//*[@id='bySeason']''')
@@ -80,7 +80,7 @@ df = pd.DataFrame()
 for seas in range(1, num_seasons + 1):
     retriesLeft = RETRIES
     while retriesLeft > 0:
-        print(f'Loading Season {seas} ({RETRIES - retriesLeft + 1}/{RETRIES})...')
+        print(f'Loading Season {seas}/{num_seasons} ... (attempt {RETRIES - retriesLeft + 1}/{RETRIES})')
         retriesLeft -= 1
         tree = req(f'https://www.imdb.com/title/{pid}/episodes?season={seas}')
         ep = 1
@@ -89,7 +89,7 @@ for seas in range(1, num_seasons + 1):
                 xpath_loc = f'''//*[@id='episodes_content']/div[2]/div[2]/div[{ep}]/div[2]/div[2]/div[1]/span[2]'''
                 rating_elem = tree.xpath(xpath_loc)
                 rating = float(rating_elem[0].text)
-                print(f'Episode {ep} : {rating:.1f}')
+                print(f'Episode {ep}: {rating:.1f}')
                 df_ep = pd.DataFrame([{
                     'season': seas,
                     'episode': ep,
@@ -98,7 +98,7 @@ for seas in range(1, num_seasons + 1):
                 df = pd.concat([df, df_ep], ignore_index=True)
             print('Succesfully reached end of maximum of episodes to try')
             break
-        except:
+        except IndexError:
             # dont retry if any episode found
             if ep != 1:
                 break

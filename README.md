@@ -30,15 +30,39 @@ The heatmap in this example saved to `heatmaps/Breaking Bad.png`.
 
 ## Quickstart
 
-### Prerequisites
+### Dependencies
 
 - Python version `Python 3.9.13`
 - Python packages see `requirements.txt`
 
 ### Setup
 
-#### Scraper
+1. Clone this repository
 
-1. Run `python scrape.py` to scrape the IMDB website for a specific series.
-2. Run `python heatmap.py` to create a plot for the scraped series.
+| **HTTPS**  | `$ git clone https://github.com/trflorian/imdb-scraper-heatmap.git` |
+| ---|---|
+| **SSH** |`$ git clone git@github.com:trflorian/imdb-scraper-heatmap.git` |
+
+3. (Optional) Create a virtual environment for this project 
+4. Install the required python packages in your python environment.
+
+`$ python -m pip install -r requirements.txt`
+
+5. Run `$ python scraper.py` to scrape the IMDB website for a specific series.
+6. Run `$ python heatmap.py` to create a plot for the scraped series.
+
+### Usage
+
+``` 
+$ python .\heatmap.py --help
+
+usage: heatmap.py [-h] [-s] [-d] [-o] [-n NAME]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -s, --show            show the heatmap plot instead of saving it
+  -d, --dark            use dark mode for the plot style
+  -o, --override        override existing plots, only used if show flag is not set
+  -n NAME, --name NAME  name of the series, if not set the whole data directory will be scanned
+```
 

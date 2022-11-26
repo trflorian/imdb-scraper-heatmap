@@ -9,10 +9,13 @@ import matplotlib
 import matplotlib.pyplot as plt
 matplotlib.use('TkAgg')
 
+dark_col = (0.16, 0.16, 0.16, 1.0)
+
 def img_path(series):
     return f'heatmaps/{series}.png'
 
-def heatmap_plot(series: str, show=True, save=True):
+def heatmap_plot(series: str, show=True, save=True, dark_mode=False):
+
     # read ratings for series
     df = pd.read_csv(f'data/{series}.csv')
 
@@ -31,6 +34,12 @@ def heatmap_plot(series: str, show=True, save=True):
     if minax < minsize:
         figsize = figsize / minax * minsize
     plt.figure(figsize=figsize, dpi=200)
+
+    # dark mode
+    if dark_mode:
+        plt.style.use("dark_background")
+        plt.gca().set_facecolor(dark_col)
+        plt.gcf().set_facecolor(dark_col)
 
     for _, row in df.iterrows():
         # indexing in df starts at 1, convert to 0-indexing
@@ -67,14 +76,18 @@ def heatmap_plot(series: str, show=True, save=True):
     # optionally save or display the plot
     if save:
         fn = img_path(series)
-        plt.savefig(fn)
+        if dark_mode:
+            plt.savefig(fn, facecolor=dark_col)
+        else:
+            plt.savefig(fn)
     if show:
         plt.show()
 
 def main():
-    show = False
+    show = True
     save = True
     override = True
+    dark_mode = False
 
     # load all series in data folder
     all_series = ['.'.join(s.split('.')[:-1]) for s in os.listdir('data')]
@@ -93,7 +106,7 @@ def main():
         print('No series to plot...')
     else:
         for series in tqdm(all_series):
-            heatmap_plot(series, show=show, save=save)
+            heatmap_plot(series, show=show, save=save, dark_mode=dark_mode)
 
 if __name__ == '__main__':
     main()

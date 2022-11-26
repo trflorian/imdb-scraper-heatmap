@@ -52,10 +52,13 @@ def heatmap_plot(series: str, show=True, save=True):
     plt.yticks(ticks[0][::-1], labels=[f'{i+1}' for i in ticks[0]])
     plt.xticks(ticks[1], labels=[f'{i+1}' for i in ticks[1]])
 
-    # format labels and title
+    # format axis labels
     plt.xlabel('Episode')
     plt.ylabel('Season')
-    plt.title(series)
+
+    # title with whitespaces
+    title = series.replace('_', ' ')
+    plt.title(title)
 
     # plot heatmap
     plt.tight_layout()
@@ -69,9 +72,9 @@ def heatmap_plot(series: str, show=True, save=True):
         plt.show()
 
 def main():
-    show = True
+    show = False
     save = True
-    override = False
+    override = True
 
     # load all series in data folder
     all_series = ['.'.join(s.split('.')[:-1]) for s in os.listdir('data')]

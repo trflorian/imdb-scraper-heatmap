@@ -4,21 +4,29 @@ from lxml import html
 import pandas as pd
 
 # config
-RETRIES = 3
-MAX_EPISODES_TRY = 30
+RETRIES = 5
+MAX_EPISODES_TRY = 100
 
 base_imdb_url = 'https://www.imdb.com'
 
 # Movie/Series to search for
-# query = 'Breaking Bad'
+query = 'Breaking Bad'
 # query = 'Dark'
 # query = 'Prison Break'
 # query = 'Riverdale'
 # query = 'Top Gear'
 # query = 'Navy CIS'
 # query = 'Money Heist'
-query = 'The 100'
-
+# query = 'The 100'
+# query = 'Game Of Thrones'
+# query = 'The Witcher'
+# query = 'Shadowhunters'
+# query = 'Friends'
+# query = 'The Office'
+# query = 'The Last Airbender'
+# query = 'Legends of Korra'
+# query = 'Arcane'
+# query = 'Pokemon'
 
 def load_page(url):
     chrome_options = webdriver.ChromeOptions()
@@ -75,10 +83,11 @@ for seas in range(1, num_seasons + 1):
         print(f'Loading Season {seas} ({RETRIES - retriesLeft + 1}/{RETRIES})...')
         retriesLeft -= 1
         tree = req(f'https://www.imdb.com/title/{pid}/episodes?season={seas}')
-        for ep in range(1, MAX_EPISODES_TRY):
-            xpath_loc = f'''//*[@id='episodes_content']/div[2]/div[2]/div[{ep}]/div[2]/div[2]/div[1]/span[2]'''
-            rating_elem = tree.xpath(xpath_loc)
-            try:
+        ep = 1
+        try:
+            for ep in range(1, MAX_EPISODES_TRY):
+                xpath_loc = f'''//*[@id='episodes_content']/div[2]/div[2]/div[{ep}]/div[2]/div[2]/div[1]/span[2]'''
+                rating_elem = tree.xpath(xpath_loc)
                 rating = float(rating_elem[0].text)
                 print(f'Episode {ep} : {rating:.1f}')
                 df_ep = pd.DataFrame([{
@@ -87,10 +96,11 @@ for seas in range(1, num_seasons + 1):
                     'rating': rating
                 }])
                 df = pd.concat([df, df_ep], ignore_index=True)
-            except:
-                # retry if no episodes found
-                if ep != 1:
-                    retriesLeft = 0
+            print('Succesfully reached end of maximum of episodes to try')
+            break
+        except:
+            # dont retry if any episode found
+            if ep != 1:
                 break
 
 print(f'Imported {num_seasons} seasons with a total of {len(df.index)} episodes')

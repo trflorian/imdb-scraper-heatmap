@@ -6,6 +6,10 @@ This tool scrapes the website https://www.imdb.com for ratings of individual epi
 A csv file is generated to cache the ratings.
 Using matplotlib, the tool then generates a heatmap representation of all episodes in the series.
 
+| ![](heatmaps/Dark.png)  |  ![](heatmaps/Breaking_Bad.png)  |
+|---------|-----|
+| ![](heatmaps/Game_Of_Thrones.png) | ![](heatmaps/Navy_CIS.png) |
+
 ## Examples
 
 ### Data output

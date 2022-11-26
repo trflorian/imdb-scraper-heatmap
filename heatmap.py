@@ -71,7 +71,7 @@ def heatmap_plot(series: str, show=True, save=True):
 def main():
     show = True
     save = True
-    override = True
+    override = False
 
     # load all series in data folder
     all_series = ['.'.join(s.split('.')[:-1]) for s in os.listdir('data')]

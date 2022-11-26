@@ -1,27 +1,19 @@
-import matplotlib
-import matplotlib.pyplot as plt
-matplotlib.use('TkAgg')
+import os
 
 from tqdm import tqdm
 
 import numpy as np
 import pandas as pd
 
-# series = "Top Gear"
-# series = "Bones"
-# series = "Navy CIS"
-# series = "Money Heist"
-# series = "Dark"
-# series = "Breaking Bad"
-
-#all_series = ["Breaking Bad", "Dark", "Money Heist", "Navy CIS", "Bones", "Top Gear", "Prison Break", "Riverdale"]
-all_series = ["The 100"]
+import matplotlib
+import matplotlib.pyplot as plt
+matplotlib.use('TkAgg')
 
 def heatmap_plot(series: str, show=True, save=True):
-    df = pd.read_csv(f"data/{series}.csv")
+    df = pd.read_csv(f'data/{series}.csv')
 
-    seasons = df["season"].max()
-    episodes = df["episode"].max()
+    seasons = df['season'].max()
+    episodes = df['episode'].max()
 
     heatmap = np.zeros([seasons, episodes])
 
@@ -43,28 +35,34 @@ def heatmap_plot(series: str, show=True, save=True):
     plt.figure(figsize=figsize, dpi=200)
 
     for _, row in df.iterrows():
-        sid = int(row["season"])-1
-        eid = int(row["episode"])-1
-        rating = row["rating"]
+        sid = int(row['season'])-1
+        eid = int(row['episode'])-1
+        rating = row['rating']
         heatmap[seasons - sid - 1, eid] = rating
-        plt.text(eid, seasons - sid - 1, f"{rating}", ha="center", va="center", color="w", fontsize=7)
+        plt.text(eid, seasons - sid - 1, f'{rating}', ha='center', va='center', color='w', fontsize=7)
 
     heatmap = np.ma.masked_where(heatmap < 0.1, heatmap)
 
     ticks = [np.arange(heatmap.shape[i]) for i in [0, 1]]
-    plt.yticks(ticks[0][::-1], labels=[f"{i+1}" for i in ticks[0]])
-    plt.xticks(ticks[1], labels=[f"{i+1}" for i in ticks[1]])
+    plt.yticks(ticks[0][::-1], labels=[f'{i+1}' for i in ticks[0]])
+    plt.xticks(ticks[1], labels=[f'{i+1}' for i in ticks[1]])
 
-    plt.xlabel("Episode")
-    plt.ylabel("Season")
+    plt.xlabel('Episode')
+    plt.ylabel('Season')
 
     plt.title(series)
     plt.imshow(heatmap)
     plt.tight_layout()
     if save:
-        plt.savefig(f"heatmaps/{series}.png")
+        plt.savefig(f'heatmaps/{series}.png')
     if show:
         plt.show()
 
-for series in tqdm(all_series):
-    heatmap_plot(series, show=True, save=True)
+def main():
+    all_series = os.listdir('data')
+    all_series = ['.'.join(s.split('.')[:-1]) for s in all_series]
+    for series in tqdm(all_series):
+        heatmap_plot(series, show=False, save=True)
+
+if __name__ == '__main__':
+    main()

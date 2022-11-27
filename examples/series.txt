@@ -1,2 +1,2 @@
 # List of series to scrape
-Avatar: The Last Airbender
+Dark

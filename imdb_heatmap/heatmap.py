@@ -34,7 +34,7 @@ def create_heatmap(episodes: list[Episode]) -> np.ndarray:
     return heatmap
 
 def heatmap_plot(series_name: str, episodes: List[Episode], show: bool, save_fn: str or None,
-                 dark_mode: bool, dark_col=(0.16, 0.16, 0.16, 1.0)) -> None:
+                 dark_mode: bool, dpi=100, dark_col=(0.16, 0.16, 0.16, 1.0)) -> None:
     # create the heatmap array
     heatmap = create_heatmap(episodes)
 
@@ -48,7 +48,7 @@ def heatmap_plot(series_name: str, episodes: List[Episode], show: bool, save_fn:
     minsize = 2.3
     if minax < minsize:
         figsize = figsize / minax * minsize
-    plt.figure(figsize=figsize, dpi=200)
+    plt.figure(figsize=figsize, dpi=dpi)
 
     # dark mode
     if dark_mode:

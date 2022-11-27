@@ -11,8 +11,8 @@ from selenium.webdriver.common.by import By
 from .models import Episode, ImdbEntry
 
 class ImdbScraper:
-    timeout = 2
-    max_retries = 6
+    timeout = 10
+    max_retries = 20
     max_episodes = 100
     base_url = 'https://www.imdb.com'
     driver = None
@@ -50,13 +50,14 @@ class ImdbScraper:
 
     def _restart_driver(self) -> None:
         self.page_loaded = False
+        self.driver.delete_all_cookies()
         self.driver.close()
         self.driver = webdriver.Chrome(options=self.chrome_options)
 
     def _load_url(self, imdb_url: str) -> None:
         self.variant = None
         print(f'Fetching from {imdb_url}')
-        self.driver.implicitly_wait(1)
+        #self.driver.implicitly_wait(1)
         self.driver.get(f'{self.base_url}/{imdb_url}')
 
     def _load_element(self, xpaths):

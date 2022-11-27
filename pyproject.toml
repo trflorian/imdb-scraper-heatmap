@@ -1,16 +1,27 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "imdb_heatmap"
-version = "0.0.1"
-authors = [
-  { name="Florian Trautweiler", email="florian.trautweiler@hispeed.ch" },
-]
 description = "Scarper and heatmap plotter for episode ratings of series on IMDB"
+version = "0.0.1"
+authors = [{ name="Florian Trautweiler", email="florian.trautweiler@hispeed.ch" }]
 readme = "README.md"
+license = { file = "LICENSE" }
 requires-python = ">=3.7"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+]
+dependencies = [
+    "pandas",
+    "selenium",
+    "lxml",
+    "numpy",
+    "matplotlib",
+    "tqdm",
 ]
 
 [project.urls]

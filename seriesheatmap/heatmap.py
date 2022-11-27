@@ -34,12 +34,12 @@ def create_heatmap(episodes: list[Episode]) -> np.ndarray:
     return heatmap
 
 def heatmap_plot(series_name: str, episodes: List[Episode], show: bool, save_fn: str or None,
-                 dark_mode: bool, dpi=100, dark_col=(0.16, 0.16, 0.16, 1.0)) -> None:
+                 dark_mode: bool, save_buffer=None, dpi=100, dark_col=(0.16, 0.16, 0.16, 1.0)) -> None:
     # create the heatmap array
     heatmap = create_heatmap(episodes)
 
-    # TODO
-    matplotlib.use('TkAgg')
+    if show:
+        matplotlib.use('TkAgg')
 
     # scale figure appropriately
     figsize = np.array(heatmap.shape[::-1])
@@ -78,6 +78,11 @@ def heatmap_plot(series_name: str, episodes: List[Episode], show: bool, save_fn:
 
     # plot heatmap
     plt.tight_layout()
+
+    # save plot to buffer if provided
+    if save_buffer is not None:
+        plt.savefig(save_buffer, format='png')
+        save_buffer.seek(0)
 
     # optionally save or display the plot
     if save_fn is not None:

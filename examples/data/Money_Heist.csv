@@ -1,42 +1,42 @@
-season,episode,rating
-1,1,8.1
-1,2,8.2
-1,3,8.1
-1,4,8.1
-1,5,8.2
-1,6,8.1
-1,7,8.3
-1,8,8.1
-1,9,8.5
-2,1,8.4
-2,2,8.3
-2,3,8.5
-2,4,8.6
-2,5,8.6
-2,6,9.2
-3,1,8.0
-3,2,8.2
-3,3,8.2
-3,4,7.9
-3,5,7.8
-3,6,8.1
-3,7,8.2
-3,8,9.3
-4,1,7.3
-4,2,7.0
-4,3,7.0
-4,4,7.4
-4,5,6.8
-4,6,7.1
-4,7,8.1
-4,8,8.2
-5,1,7.3
-5,2,6.9
-5,3,7.1
-5,4,7.5
-5,5,8.2
-5,6,7.1
-5,7,7.8
-5,8,7.9
-5,9,8.4
-5,10,8.5
+season,episode,name,rating
+1,1,Efectuar lo acordado,8.1
+1,2,Imprudencias letales,8.2
+1,3,Errar al disparar,8.1
+1,4,Caballo de Troya,8.1
+1,5,El día de la marmota,8.2
+1,6,La cálida Guerra Fría,8.1
+1,7,Refrigerada inestabilidad,8.3
+1,8,Tú lo has buscado,8.1
+1,9,El que la sigue la consigue,8.5
+2,1,Se acabaron las máscaras,8.4
+2,2,La cabeza del plan,8.3
+2,3,Cuestión de eficacia,8.5
+2,4,¿Qué hemos hecho?,8.6
+2,5,A contrarreloj,8.6
+2,6,Bella ciao,9.2
+3,1,Hemos vuelto,8.0
+3,2,Aikido,8.2
+3,3,48 metros bajo el suelo,8.2
+3,4,La hora del delfín,7.9
+3,5,"Bum, bum, ciao",7.8
+3,6,Todo pareció insignificante,8.1
+3,7,Pequeñas vacaciones,8.2
+3,8,La deriva,9.3
+4,1,Game over,7.3
+4,2,La boda de Berlín,7.0
+4,3,Lección de anatomía,7.0
+4,4,Suspiros de España,7.4
+4,5,5 minutos antes,6.8
+4,6,KO técnico,7.1
+4,7,Tumbar la carpa,8.1
+4,8,Plan París,8.2
+5,1,El final del camino,7.3
+5,2,¿Crees en la reencarnación?,6.9
+5,3,El espectáculo de la vida,7.1
+5,4,Tu sitio en el cielo,7.5
+5,5,Vivir muchas vidas,8.2
+5,6,Válvulas de escape,7.1
+5,7,Ciencia ilusionada,7.8
+5,8,La teoría de la elegancia,7.9
+5,9,Lo que se habla en la cama,8.4
+5,10,Una tradición familiar,8.5

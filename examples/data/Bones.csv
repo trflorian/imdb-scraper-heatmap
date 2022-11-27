@@ -1,246 +1,246 @@
-season,episode,rating
-1,1,7.5
-1,2,7.3
-1,3,7.5
-1,4,7.8
-1,5,7.8
-1,6,7.4
-1,7,8.1
-1,8,7.9
-1,9,8.6
-1,10,7.5
-1,11,7.7
-1,12,7.7
-1,13,7.5
-1,14,7.4
-1,15,8.4
-1,16,7.6
-1,17,7.5
-1,18,7.5
-1,19,8.0
-1,20,8.2
-1,21,7.6
-1,22,8.6
-2,1,7.5
-2,2,7.7
-2,3,7.7
-2,4,8.1
-2,5,7.6
-2,6,7.5
-2,7,7.6
-2,8,7.9
-2,9,9.2
-2,10,7.8
-2,11,8.5
-2,12,8.6
-2,13,7.7
-2,14,7.7
-2,15,8.0
-2,16,7.3
-2,17,7.7
-2,18,7.9
-2,19,7.5
-2,20,7.7
-2,21,8.1
-3,1,7.8
-3,2,7.5
-3,3,7.2
-3,4,7.5
-3,5,8.2
-3,6,7.7
-3,7,7.6
-3,8,8.2
-3,9,8.4
-3,10,7.5
-3,11,7.5
-3,12,8.0
-3,13,8.4
-3,14,8.5
-3,15,8.2
-4,1,7.5
-4,2,7.4
-4,3,7.6
-4,4,8.1
-4,5,7.3
-4,6,7.6
-4,7,7.4
-4,8,7.8
-4,9,8.2
-4,10,7.5
-4,11,8.2
-4,12,7.6
-4,13,8.6
-4,14,7.6
-4,15,7.5
-4,16,7.5
-4,17,7.7
-4,18,7.7
-4,19,7.5
-4,20,8.0
-4,21,8.5
-4,22,7.7
-4,23,7.3
-4,24,8.1
-4,25,7.7
-5,1,7.9
-5,2,7.9
-5,3,7.8
-5,4,7.5
-5,5,7.9
-5,6,7.3
-5,7,7.7
-5,8,7.8
-5,9,7.5
-5,10,8.1
-5,11,7.8
-5,12,8.4
-5,13,7.4
-5,14,7.7
-5,15,7.7
-5,16,8.7
-5,17,8.2
-5,18,7.5
-5,19,7.2
-5,20,8.0
-5,21,8.5
-5,22,8.2
-6,1,8.1
-6,2,7.3
-6,3,7.4
-6,4,7.8
-6,5,7.5
-6,6,7.9
-6,7,7.4
-6,8,7.4
-6,9,8.7
-6,10,7.5
-6,11,8.4
-6,12,7.3
-6,13,7.6
-6,14,7.6
-6,15,7.8
-6,16,8.3
-6,17,7.6
-6,18,7.4
-6,19,7.4
-6,20,7.3
-6,21,8.7
-6,22,9.1
-6,23,8.5
-7,1,8.0
-7,2,7.8
-7,3,7.7
-7,4,7.8
-7,5,7.6
-7,6,8.6
-7,7,7.8
-7,8,7.7
-7,9,7.5
-7,10,7.4
-7,11,7.6
-7,12,7.9
-7,13,8.7
-8,1,8.5
-8,2,7.6
-8,3,7.9
-8,4,7.4
-8,5,7.5
-8,6,8.8
-8,7,7.6
-8,8,7.5
-8,9,6.6
-8,10,7.0
-8,11,7.6
-8,12,8.5
-8,13,7.3
-8,14,7.4
-8,15,7.7
-8,16,7.7
-8,17,7.4
-8,18,7.5
-8,19,7.4
-8,20,7.4
-8,21,7.2
-8,22,7.3
-8,23,8.3
-8,24,7.7
-9,1,7.7
-9,2,7.6
-9,3,7.5
-9,4,8.2
-9,5,7.5
-9,6,8.5
-9,7,7.3
-9,8,7.3
-9,9,7.7
-9,10,7.6
-9,11,7.7
-9,12,7.6
-9,13,8.2
-9,14,7.7
-9,15,7.7
-9,16,7.5
-9,17,7.3
-9,18,6.9
-9,19,7.4
-9,20,7.6
-9,21,7.3
-9,22,7.8
-9,23,7.5
-9,24,8.9
-10,1,8.5
-10,2,8.2
-10,3,7.1
-10,4,7.4
-10,5,7.7
-10,6,7.6
-10,7,7.2
-10,8,7.5
-10,9,7.3
-10,10,7.6
-10,11,7.2
-10,12,7.5
-10,13,7.1
-10,14,7.2
-10,15,7.5
-10,16,7.2
-10,17,7.5
-10,18,7.7
-10,19,7.5
-10,20,7.3
-10,21,7.4
-10,22,7.8
-11,1,8.0
-11,2,7.9
-11,3,7.4
-11,4,7.7
-11,5,7.4
-11,6,7.5
-11,7,7.3
-11,8,7.5
-11,9,7.8
-11,10,8.5
-11,11,7.5
-11,12,6.9
-11,13,8.2
-11,14,7.7
-11,15,7.6
-11,16,7.1
-11,17,7.8
-11,18,7.7
-11,19,7.6
-11,20,7.8
-11,21,7.7
-11,22,8.9
-12,1,8.2
-12,2,7.5
-12,3,7.5
-12,4,7.8
-12,5,7.4
-12,6,7.4
-12,7,8.0
-12,8,7.5
-12,9,7.3
-12,10,7.1
-12,11,8.4
-12,12,8.1
+season,episode,name,rating
+1,1,Pilot,7.5
+1,2,The Man in the SUV,7.3
+1,3,A Boy in a Tree,7.5
+1,4,The Man in the Bear,7.8
+1,5,A Boy in a Bush,7.8
+1,6,The Man in the Wall,7.4
+1,7,The Man on Death Row,8.1
+1,8,The Girl in the Fridge,7.9
+1,9,The Man in the Fallout Shelter,8.6
+1,10,The Woman at the Airport,7.5
+1,11,The Woman in the Car,7.7
+1,12,The Superhero in the Alley,7.7
+1,13,The Woman in the Garden,7.5
+1,14,The Man on the Fairway,7.5
+1,15,Two Bodies in the Lab,8.4
+1,16,The Woman in the Tunnel,7.6
+1,17,The Skull in the Desert,7.5
+1,18,The Man with the Bone,7.5
+1,19,The Man in the Morgue,8.0
+1,20,The Graft in the Girl,8.2
+1,21,The Soldier on the Grave,7.6
+1,22,The Woman in Limbo,8.6
+2,1,The Titan on the Track,7.5
+2,2,Mother and Child in the Bay,7.7
+2,3,The Boy in the Shroud,7.7
+2,4,The Blonde in the Game,8.1
+2,5,The Truth in the Lye,7.6
+2,6,The Girl in Suite 2103,7.5
+2,7,The Girl with the Curl,7.6
+2,8,The Woman in the Sand,7.9
+2,9,Aliens in a Spaceship,9.2
+2,10,The Headless Witch in the Woods,7.8
+2,11,Judas on a Pole,8.5
+2,12,The Man in the Cell,8.6
+2,13,The Girl in the Gator,7.7
+2,14,The Man in the Mansion,7.7
+2,15,The Bodies in the Book,8.0
+2,16,The Boneless Bride in the River,7.3
+2,17,The Priest in the Churchyard,7.7
+2,18,The Killer in the Concrete,7.9
+2,19,Spaceman in a Crater,7.5
+2,20,The Glowing Bones in 'The Old Stone House',7.7
+2,21,Stargazer in a Puddle,8.1
+3,1,The Widow's Son in the Windshield,7.8
+3,2,Soccer Mom in the Mini-Van,7.5
+3,3,Death in the Saddle,7.2
+3,4,The Secret in the Soil,7.5
+3,5,Mummy in the Maze,8.2
+3,6,Intern in the Incinerator,7.7
+3,7,Boy in the Time Capsule,7.6
+3,8,The Knight on the Grid,8.2
+3,9,The Santa in the Slush,8.4
+3,10,The Man in the Mud,7.5
+3,11,Player Under Pressure,7.5
+3,12,The Baby in the Bough,8.0
+3,13,The Verdict in the Story,8.4
+3,14,The Wannabe in the Weeds,8.5
+3,15,The Pain in the Heart,8.2
+4,1,The Yanks in the U.K.: Parts 1 and 2,7.5
+4,2,The Man in the Outhouse,7.4
+4,3,The Finger in the Nest,7.6
+4,4,The Perfect Pieces in the Purple Pond,8.1
+4,5,The Crank in the Shaft,7.3
+4,6,The He in the She,7.6
+4,7,The Skull in the Sculpture,7.4
+4,8,The Con Man in the Meth Lab,7.8
+4,9,The Passenger in the Oven,8.2
+4,10,The Bone That Blew,7.5
+4,11,Double Trouble in the Panhandle,8.2
+4,12,Fire in the Ice,7.6
+4,13,The Hero in the Hold,8.6
+4,14,The Princess and the Pear,7.6
+4,15,The Bones That Foam,7.5
+4,16,The Salt in the Wounds,7.5
+4,17,The Doctor in the Den,7.7
+4,18,The Science in the Physicist,7.7
+4,19,The Cinderella in the Cardboard,7.5
+4,20,Mayhem on a Cross,8.0
+4,21,The Double Death of the Dearly Departed,8.5
+4,22,The Girl in the Mask,7.7
+4,23,The Beaver in the Otter,7.3
+4,24,The Critic in the Cabernet,8.1
+4,25,The End in the Beginning,7.7
+5,1,Harbingers in a Fountain,7.9
+5,2,The Bond in the Boot,7.9
+5,3,The Plain in the Prodigy,7.8
+5,4,The Beautiful Day in the Neighborhood,7.6
+5,5,A Night at the Bones Museum,7.9
+5,6,The Tough Man in the Tender Chicken,7.3
+5,7,The Dwarf in the Dirt,7.7
+5,8,The Foot in the Foreclosure,7.8
+5,9,The Gamer in the Grease,7.5
+5,10,The Goop on the Girl,8.1
+5,11,The X in the File,7.8
+5,12,The Proof in the Pudding,8.4
+5,13,The Dentist in the Ditch,7.4
+5,14,The Devil in the Details,7.7
+5,15,The Bones on the Blue Line,7.7
+5,16,The Parts in the Sum of the Whole,8.7
+5,17,The Death of the Queen Bee,8.2
+5,18,The Predator in the Pool,7.5
+5,19,The Rocker in the Rinse Cycle,7.3
+5,20,The Witch in the Wardrobe,8.0
+5,21,The Boy with the Answer,8.5
+5,22,The Beginning in the End,8.2
+6,1,The Mastodon in the Room,8.1
+6,2,The Couple in the Cave,7.3
+6,3,The Maggots in the Meathead,7.4
+6,4,The Body and the Bounty,7.8
+6,5,The Bones That Weren't,7.5
+6,6,The Shallow in the Deep,7.9
+6,7,The Babe in the Bar,7.4
+6,8,The Twisted Bones in the Melted Truck,7.4
+6,9,The Doctor in the Photo,8.7
+6,10,The Body in the Bag,7.5
+6,11,The Bullet in the Brain,8.4
+6,12,The Sin in the Sisterhood,7.3
+6,13,The Daredevil in the Mold,7.6
+6,14,The Bikini in the Soup,7.6
+6,15,The Killer in the Crosshairs,7.8
+6,16,The Blackout in the Blizzard,8.3
+6,17,The Feet on the Beach,7.6
+6,18,The Truth in the Myth,7.4
+6,19,The Finder,7.4
+6,20,The Pinocchio in the Planter,7.3
+6,21,The Signs in the Silence,8.7
+6,22,The Hole in the Heart,9.1
+6,23,The Change in the Game,8.5
+7,1,The Memories in the Shallow Grave,8.0
+7,2,The Hot Dog in the Competition,7.8
+7,3,The Prince in the Plastic,7.7
+7,4,The Male in the Mail,7.8
+7,5,The Twist in the Twister,7.6
+7,6,The Crack in the Code,8.6
+7,7,The Prisoner in the Pipe,7.8
+7,8,The Bump in the Road,7.7
+7,9,The Don't in the Do,7.5
+7,10,The Warrior in the Wuss,7.4
+7,11,The Family in the Feud,7.6
+7,12,The Suit on the Set,7.9
+7,13,The Past in the Present,8.7
+8,1,The Future in the Past,8.5
+8,2,The Partners in the Divorce,7.7
+8,3,The Gunk in the Garage,7.9
+8,4,The Tiger in the Tale,7.4
+8,5,The Method in the Madness,7.5
+8,6,The Patriot in Purgatory,8.8
+8,7,The Bod in the Pod,7.6
+8,8,The But in the Joke,7.5
+8,9,The Ghost in the Machine,6.6
+8,10,The Diamond in the Rough,7.0
+8,11,The Archaeologist in the Cocoon,7.6
+8,12,The Corpse on the Canopy,8.5
+8,13,The Twist in the Plot,7.3
+8,14,The Doll in the Derby,7.4
+8,15,The Shot in the Dark,7.7
+8,16,The Friend in Need,7.7
+8,17,The Fact in the Fiction,7.4
+8,18,The Survivor in the Soap,7.5
+8,19,The Doom in the Gloom,7.4
+8,20,The Blood from the Stones,7.4
+8,21,The Maiden in the Mushrooms,7.2
+8,22,The Party in the Pants,7.3
+8,23,The Pathos in the Pathogens,8.3
+8,24,The Secret in the Siege,7.7
+9,1,The Secrets in the Proposal,7.7
+9,2,The Cheat in the Retreat,7.6
+9,3,El Carnicero en el Coche,7.5
+9,4,The Sense in the Sacrifice,8.2
+9,5,The Lady on the List,7.5
+9,6,The Woman in White,8.5
+9,7,The Nazi on the Honeymoon,7.3
+9,8,The Dude in the Dam,7.3
+9,9,The Fury in the Jury,7.7
+9,10,The Mystery in the Meat,7.6
+9,11,The Spark in the Park,7.7
+9,12,The Ghost in the Killer,7.6
+9,13,Big in the Philippines,8.2
+9,14,The Master in the Slop,7.7
+9,15,The Heiress in the Hill,7.7
+9,16,The Source in the Sludge,7.5
+9,17,The Repo Man in the Septic Tank,7.3
+9,18,The Carrot in the Kudzu,6.9
+9,19,The Turn in the Urn,7.4
+9,20,The High in the Low,7.6
+9,21,The Cold in the Case,7.3
+9,22,The Nail in the Coffin,7.8
+9,23,The Drama in the Queen,7.6
+9,24,The Recluse in the Recliner,8.9
+10,1,The Conspiracy in the Corpse,8.5
+10,2,The Lance to the Heart,8.2
+10,3,The Purging of the Pundit,7.1
+10,4,The Geek in the Guck,7.4
+10,5,The Corpse at the Convention,7.7
+10,6,The Lost Love in the Foreign Land,7.6
+10,7,The Money Maker on the Merry-Go-Round,7.2
+10,8,The Puzzler in the Pit,7.5
+10,9,The Mutilation of the Master Manipulator,7.3
+10,10,The 200th in the 10th,7.6
+10,11,The Psychic in the Soup,7.1
+10,12,The Teacher in the Books,7.5
+10,13,The Baker in the Bits,7.1
+10,14,The Putter in the Rough,7.2
+10,15,The Eye in the Sky,7.5
+10,16,The Big Beef at the Royal Diner,7.2
+10,17,The Lost in the Found,7.5
+10,18,The Verdict in the Victims,7.7
+10,19,The Murder in the Middle East,7.5
+10,20,The Woman in the Whirlpool,7.3
+10,21,The Life in the Light,7.4
+10,22,The Next in the Last,7.8
+11,1,The Loyalty in the Lie,8.0
+11,2,The Brother in the Basement,7.9
+11,3,The Donor in the Drink,7.4
+11,4,The Carpals in the Coy-Wolves,7.7
+11,5,The Resurrection in the Remains,7.4
+11,6,The Senator in the Street Sweeper,7.5
+11,7,The Promise in the Palace,7.3
+11,8,High Treason in the Holiday Season,7.5
+11,9,The Cowboy in the Contest,7.8
+11,10,The Doom in the Boom,8.5
+11,11,The Death in the Defense,7.5
+11,12,The Murder of the Meninist,6.9
+11,13,The Monster in the Closet,8.2
+11,14,The Last Shot at a Second Chance,7.7
+11,15,The Fight in the Fixer,7.6
+11,16,The Strike in the Chord,7.1
+11,17,The Secret in the Service,7.8
+11,18,The Movie in the Making,7.7
+11,19,The Head in the Abutment,7.6
+11,20,The Stiff in the Cliff,7.8
+11,21,The Jewel in the Crown,7.7
+11,22,The Nightmare in the Nightmare,8.9
+12,1,The Hope in the Horror,8.2
+12,2,The Brain in the Bot,7.5
+12,3,The New Tricks in the Old Dogs,7.5
+12,4,The Price for the Past,7.8
+12,5,The Tutor in the Tussle,7.4
+12,6,The Flaw in the Saw,7.4
+12,7,The Scare in the Score,8.0
+12,8,The Grief and the Girl,7.6
+12,9,The Steal in the Wheels,7.3
+12,10,The Radioactive Panthers in the Party,7.1
+12,11,The Day in the Life,8.4
+12,12,The Final Chapter: The End in the End,8.1

@@ -39,7 +39,7 @@ def main():
 
             df = episodes_to_df(episodes)
 
-            fn = title.replace(' ', '_')
+            fn = title.replace(' ', '_').replace(':', '')
             df.to_csv(f'examples/data/{fn}.csv', index=False)
 
 if __name__ == '__main__':

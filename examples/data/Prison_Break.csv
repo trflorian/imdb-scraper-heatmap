@@ -1,91 +1,91 @@
-season,episode,rating
-1,1,8.7
-1,2,8.5
-1,3,8.4
-1,4,8.6
-1,5,8.8
-1,6,9.2
-1,7,9.1
-1,8,8.6
-1,9,8.4
-1,10,8.5
-1,11,8.5
-1,12,8.7
-1,13,9.0
-1,14,8.9
-1,15,8.4
-1,16,8.5
-1,17,8.5
-1,18,8.7
-1,19,8.7
-1,20,9.1
-1,21,9.5
-1,22,9.3
-2,1,8.8
-2,2,8.3
-2,3,8.4
-2,4,8.4
-2,5,8.2
-2,6,8.3
-2,7,8.5
-2,8,8.2
-2,9,8.4
-2,10,8.3
-2,11,8.4
-2,12,8.3
-2,13,8.9
-2,14,8.6
-2,15,8.4
-2,16,8.4
-2,17,8.5
-2,18,8.6
-2,19,8.8
-2,20,8.2
-2,21,8.6
-2,22,8.6
-3,1,8.5
-3,2,8.0
-3,3,8.0
-3,4,8.0
-3,5,7.9
-3,6,8.2
-3,7,8.2
-3,8,8.3
-3,9,7.9
-3,10,8.2
-3,11,8.3
-3,12,8.7
-3,13,8.7
-4,1,7.9
-4,2,7.6
-4,3,7.9
-4,4,7.9
-4,5,8.0
-4,6,8.0
-4,7,8.0
-4,8,8.1
-4,9,8.7
-4,10,8.0
-4,11,8.4
-4,12,8.9
-4,13,8.1
-4,14,8.0
-4,15,7.8
-4,16,7.6
-4,17,7.5
-4,18,7.4
-4,19,7.5
-4,20,8.0
-4,21,8.2
-4,22,8.9
-4,23,7.8
-4,24,8.5
-5,1,8.4
-5,2,8.2
-5,3,8.1
-5,4,8.6
-5,5,7.7
-5,6,7.5
-5,7,7.9
-5,8,8.6
-5,9,8.4
+season,episode,name,rating
+1,1,Pilot,8.7
+1,2,Allen,8.5
+1,3,Cell Test,8.4
+1,4,Cute Poison,8.6
+1,5,"English, Fitz or Percy",8.8
+1,6,"Riots, Drills and the Devil: Part 1",9.2
+1,7,"Riots, Drills and the Devil: Part 2",9.1
+1,8,The Old Head,8.6
+1,9,Tweener,8.4
+1,10,Sleight of Hand,8.5
+1,11,And Then There Were 7,8.5
+1,12,Odd Man Out,8.7
+1,13,End of the Tunnel,9.0
+1,14,The Rat,8.9
+1,15,By the Skin and the Teeth,8.4
+1,16,Brother's Keeper,8.5
+1,17,J-Cat,8.5
+1,18,Bluff,8.7
+1,19,The Key,8.7
+1,20,Tonight,9.1
+1,21,Go,9.5
+1,22,Flight,9.3
+2,1,Manhunt,8.8
+2,2,Otis,8.3
+2,3,Scan,8.4
+2,4,First Down,8.4
+2,5,Map 1213,8.2
+2,6,Subdivision,8.3
+2,7,Buried,8.5
+2,8,Dead Fall,8.2
+2,9,Unearthed,8.4
+2,10,Rendezvous,8.3
+2,11,Bolshoi Booze,8.4
+2,12,Disconnect,8.3
+2,13,The Killing Box,8.9
+2,14,John Doe,8.6
+2,15,The Message,8.4
+2,16,Chicago,8.4
+2,17,Bad Blood,8.5
+2,18,Wash,8.6
+2,19,Sweet Caroline,8.8
+2,20,Panama,8.2
+2,21,Fin del camino,8.6
+2,22,Sona,8.6
+3,1,Orientación,8.5
+3,2,Fire/Water,8.0
+3,3,Call Waiting,8.0
+3,4,Good Fences,8.0
+3,5,Interference,7.9
+3,6,Photo Finish,8.2
+3,7,Vamonos,8.2
+3,8,Bang and Burn,8.3
+3,9,Boxed In,7.9
+3,10,Dirt Nap,8.2
+3,11,Under & Out,8.3
+3,12,Hell or High Water,8.7
+3,13,The Art of the Deal,8.7
+4,1,Scylla,7.9
+4,2,Breaking and Entering,7.6
+4,3,Shut Down,7.9
+4,4,Eagles and Angels,7.9
+4,5,Safe and Sound,8.0
+4,6,Blow Out,8.0
+4,7,Five the Hard Way,8.0
+4,8,The Price,8.1
+4,9,Greatness Achieved,8.7
+4,10,The Legend,8.0
+4,11,Quiet Riot,8.4
+4,12,Selfless,8.9
+4,13,Deal or No Deal,8.1
+4,14,Just Business,8.0
+4,15,Going Under,7.8
+4,16,The Sunshine State,7.6
+4,17,The Mother Lode,7.5
+4,18,VS.,7.4
+4,19,S.O.B.,7.5
+4,20,Cowboys and Indians,8.0
+4,21,Rate of Exchange,8.2
+4,22,Killing Your Number,8.9
+4,23,The Old Ball and Chain,7.8
+4,24,Free,8.5
+5,1,Ogygia,8.4
+5,2,Kaniel Outis,8.2
+5,3,The Liar,8.1
+5,4,The Prisoner's Dilemma,8.6
+5,5,Contingency,7.7
+5,6,Phaecia,7.5
+5,7,Wine Dark Sea,7.9
+5,8,Progeny,8.6
+5,9,Behind the Eyes,8.4

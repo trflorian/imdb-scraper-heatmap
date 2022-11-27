@@ -1,118 +1,118 @@
-season,episode,rating
-1,1,7.5
-1,2,7.7
-1,3,7.7
-1,4,7.9
-1,5,7.7
-1,6,7.8
-1,7,7.7
-1,8,7.5
-1,9,7.5
-1,10,8.0
-1,11,8.0
-1,12,8.8
-1,13,8.5
-2,1,7.9
-2,2,7.8
-2,3,7.6
-2,4,7.8
-2,5,8.4
-2,6,8.0
-2,7,8.0
-2,8,7.8
-2,9,8.1
-2,10,7.6
-2,11,7.2
-2,12,7.8
-2,13,8.0
-2,14,7.8
-2,15,7.6
-2,16,7.8
-2,17,7.8
-2,18,5.8
-2,19,8.3
-2,20,8.2
-2,21,9.0
-2,22,7.8
-3,1,7.7
-3,2,7.5
-3,3,7.3
-3,4,8.3
-3,5,8.0
-3,6,7.7
-3,7,7.6
-3,8,7.8
-3,9,6.7
-3,10,7.3
-3,11,7.4
-3,12,7.2
-3,13,6.5
-3,14,6.9
-3,15,7.3
-3,16,4.2
-3,17,7.1
-3,18,7.2
-3,19,7.2
-3,20,7.6
-3,21,8.1
-3,22,8.1
-4,1,9.3
-4,2,7.4
-4,3,6.8
-4,4,7.6
-4,5,7.2
-4,6,7.0
-4,7,7.4
-4,8,7.6
-4,9,7.2
-4,10,7.1
-4,11,7.1
-4,12,6.8
-4,13,7.4
-4,14,8.0
-4,15,7.4
-4,16,8.4
-4,17,3.5
-4,18,6.7
-4,19,7.3
-5,1,7.1
-5,2,6.8
-5,3,8.3
-5,4,7.3
-5,5,7.4
-5,6,7.3
-5,7,6.6
-5,8,5.9
-5,9,6.2
-5,10,6.3
-5,11,6.0
-5,12,7.9
-5,13,6.3
-5,14,6.5
-5,15,4.3
-5,16,5.7
-5,17,7.0
-5,18,3.1
-5,19,6.3
-6,1,4.9
-6,2,4.8
-6,3,4.9
-6,4,5.5
-6,5,7.3
-6,6,5.8
-6,7,6.0
-6,8,5.9
-6,9,6.2
-6,10,5.9
-6,11,6.2
-6,12,5.9
-6,13,6.2
-6,14,6.3
-6,15,5.9
-6,16,5.8
-6,17,5.5
-6,18,5.8
-6,19,6.4
-6,20,6.5
-6,21,6.5
-6,22,5.7
+season,episode,name,rating
+1,1,Chapter One: The River's Edge,7.5
+1,2,Chapter Two: A Touch of Evil,7.7
+1,3,Chapter Three: Body Double,7.7
+1,4,Chapter Four: The Last Picture Show,7.9
+1,5,Chapter Five: Heart of Darkness,7.7
+1,6,"Chapter Six: Faster, Pussycats! Kill! Kill!",7.8
+1,7,Chapter Seven: In a Lonely Place,7.7
+1,8,Chapter Eight: The Outsiders,7.5
+1,9,Chapter Nine: La Grande Illusion,7.5
+1,10,Chapter Ten: The Lost Weekend,8.0
+1,11,Chapter Eleven: To Riverdale and Back Again,8.0
+1,12,Chapter Twelve: Anatomy of a Murder,8.8
+1,13,Chapter Thirteen: The Sweet Hereafter,8.5
+2,1,Chapter Fourteen: A Kiss Before Dying,7.9
+2,2,Chapter Fifteen: Nighthawks,7.8
+2,3,Chapter Sixteen: The Watcher in the Woods,7.6
+2,4,Chapter Seventeen: The Town That Dreaded Sundown,7.8
+2,5,Chapter Eighteen: When a Stranger Calls,8.4
+2,6,Chapter Nineteen: Death Proof,8.0
+2,7,Chapter Twenty: Tales from the Darkside,8.0
+2,8,Chapter Twenty-One: House of the Devil,7.8
+2,9,"Chapter Twenty-Two: Silent Night, Deadly Night",8.1
+2,10,Chapter Twenty-Three: The Blackboard Jungle,7.6
+2,11,Chapter Twenty-Four: The Wrestler,7.2
+2,12,Chapter Twenty-Five: The Wicked and the Divine,7.8
+2,13,Chapter Twenty-Six: The Tell-Tale Heart,8.0
+2,14,Chapter Twenty-Seven: The Hills Have Eyes,7.8
+2,15,Chapter Twenty-Eight: There Will Be Blood,7.6
+2,16,Chapter Twenty-Nine: Primary Colors,7.8
+2,17,Chapter Thirty: The Noose Tightens,7.8
+2,18,Chapter Thirty-One: A Night to Remember,5.8
+2,19,Chapter Thirty-Two: Prisoners,8.3
+2,20,Chapter Thirty-Three: Shadow of a Doubt,8.2
+2,21,Chapter Thirty-Four: Judgment Night,9.0
+2,22,Chapter Thirty-Five: Brave New World,7.8
+3,1,Chapter Thirty-Six: Labor Day,7.7
+3,2,Chapter Thirty-Seven: Fortune and Men's Eyes,7.5
+3,3,"Chapter Thirty-Eight: As Above, So Below",7.3
+3,4,Chapter Thirty-Nine: The Midnight Club,8.3
+3,5,Chapter Forty: The Great Escape,8.0
+3,6,Chapter Forty-One: Manhunter,7.7
+3,7,Chapter Forty-Two: The Man in Black,7.6
+3,8,Chapter Forty-Three: Outbreak,7.8
+3,9,Chapter Forty-Four: No Exit,6.7
+3,10,Chapter Forty-Five: The Stranger,7.4
+3,11,Chapter Forty-Six: The Red Dahlia,7.4
+3,12,Chapter Forty-Seven: Bizarrodale,7.2
+3,13,Chapter Forty-Eight: Requiem for a Welterweight,6.5
+3,14,Chapter Forty-Nine: Fire Walk with Me,6.9
+3,15,Chapter Fifty: American Dreams,7.3
+3,16,Chapter Fifty-One: Big Fun,4.2
+3,17,Chapter Fifty-Two: The Raid,7.1
+3,18,Chapter Fifty-Three: Jawbreaker,7.2
+3,19,Chapter Fifty-Four: Fear the Reaper,7.2
+3,20,Chapter Fifty-Five: Prom Night,7.6
+3,21,Chapter Fifty-Six: The Dark Secret of Harvest House,8.1
+3,22,Chapter Fifty-Seven: Survive the Night,8.1
+4,1,Chapter Fifty-Eight: In Memoriam,9.3
+4,2,Chapter Fifty-Nine: Fast Times at Riverdale High,7.4
+4,3,Chapter Sixty: Dog Day Afternoon,6.8
+4,4,Chapter Sixty-One: Halloween,7.6
+4,5,Chapter Sixty-Two: Witness for the Prosecution,7.2
+4,6,Chapter Sixty-Three: Hereditary,7.0
+4,7,Chapter Sixty-Four: The Ice Storm,7.4
+4,8,Chapter Sixty-Five: In Treatment,7.6
+4,9,Chapter Sixty-Six: Tangerine,7.2
+4,10,Chapter Sixty-Seven: Varsity Blues,7.1
+4,11,Chapter Sixty-Eight: Quiz Show,7.0
+4,12,Chapter Sixty-Nine: Men of Honor,6.8
+4,13,Chapter Seventy: The Ides of March,7.3
+4,14,Chapter Seventy-One: How to Get Away with Murder,8.0
+4,15,Chapter Seventy-Two: To Die For,7.4
+4,16,Chapter Seventy-Three: The Locked Room,8.4
+4,17,Chapter Seventy-Four: Wicked Little Town,3.5
+4,18,Chapter Seventy-Five: Lynchian,6.7
+4,19,Chapter Seventy-Six: Killing Mr. Honey,7.3
+5,1,Chapter Seventy-Seven: Climax,7.1
+5,2,Chapter Seventy-Eight: The Preppy Murders,6.8
+5,3,Chapter Seventy-Nine: Graduation,8.3
+5,4,Chapter Eighty: Purgatorio,7.3
+5,5,Chapter Eighty-One: The Homecoming,7.4
+5,6,Chapter Eighty-Two: Back to School,7.3
+5,7,Chapter Eighty-Three: Fire in the Sky,6.6
+5,8,Chapter Eighty-Four: Lock & Key,5.9
+5,9,Chapter Eighty-Five: Destroyer,6.2
+5,10,Chapter Eighty-Six: The Pincushion Man,6.3
+5,11,Chapter Eighty-Seven: Strange Bedfellows,6.0
+5,12,Chapter Eighty-Eight: Citizen Lodge,7.9
+5,13,Chapter Eighty-Nine: Reservoir Dogs,6.3
+5,14,Chapter Ninety: The Night Gallery,6.5
+5,15,Chapter Ninety-One: The Return of the Pussycats,4.3
+5,16,Chapter Ninety-Two: Band of Brothers,5.7
+5,17,Chapter Ninety-Three: Dance of Death,7.0
+5,18,Chapter Ninety-Four: Next to Normal,3.1
+5,19,Chapter Ninety-Five: RIVERDALE: RIP (?),6.3
+6,1,Chapter Ninety-Six: Welcome to Rivervale,4.9
+6,2,Chapter Ninety-Seven: Ghost Stories,4.8
+6,3,Chapter Ninety-Eight: Mr. Cypher,4.9
+6,4,Chapter Ninety-Nine: The Witching Hour(s),5.5
+6,5,Chapter One Hundred: The Jughead Paradox,7.3
+6,6,Chapter One Hundred and One: Unbelievable,5.8
+6,7,Chapter One Hundred and Two: Death at a Funeral,6.0
+6,8,Chapter One Hundred and Three: The Town,5.9
+6,9,Chapter One Hundred and Four: The Serpent Queen's Gambit,6.2
+6,10,Chapter One Hundred and Five: Folk Heroes,5.9
+6,11,Chapter One Hundred and Six: Angels in America,6.3
+6,12,Chapter One Hundred and Seven: In the Fog,5.9
+6,13,Chapter One Hundred and Eight: Ex-Libris,6.2
+6,14,Chapter One Hundred and Nine: Venomous,6.3
+6,15,Chapter One Hundred and Ten: Things That Go Bump in the Night,5.9
+6,16,Chapter One Hundred and Eleven: Blue Collar,5.8
+6,17,Chapter One Hundred and Twelve: American Psychos,5.5
+6,18,Chapter One Hundred and Thirteen: Biblical,5.8
+6,19,Chapter One Hundred and Fourteen: The Witches of Riverdale,6.4
+6,20,Chapter One Hundred and Fifteen: Return to Rivervale,6.5
+6,21,Chapter One Hundred and Sixteen: The Stand,6.6
+6,22,Chapter One Hundred and Seventeen: Night of the Comet,5.7

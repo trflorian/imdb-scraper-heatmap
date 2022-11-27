@@ -1,101 +1,101 @@
-season,episode,rating
-1,1,7.3
-1,2,7.3
-1,3,7.7
-1,4,7.7
-1,5,8.0
-1,6,7.8
-1,7,8.0
-1,8,7.7
-1,9,8.1
-1,10,8.1
-1,11,7.9
-1,12,8.3
-1,13,8.8
-2,1,8.2
-2,2,8.2
-2,3,8.1
-2,4,8.1
-2,5,8.4
-2,6,8.2
-2,7,8.4
-2,8,8.8
-2,9,8.1
-2,10,8.1
-2,11,8.6
-2,12,8.4
-2,13,8.6
-2,14,8.7
-2,15,8.7
-2,16,9.2
-3,1,7.8
-3,2,8.2
-3,3,8.7
-3,4,8.4
-3,5,7.9
-3,6,8.0
-3,7,6.9
-3,8,6.9
-3,9,7.0
-3,10,7.2
-3,11,7.6
-3,12,7.2
-3,13,7.5
-3,14,7.5
-3,15,7.7
-3,16,7.9
-4,1,7.6
-4,2,7.6
-4,3,7.9
-4,4,8.0
-4,5,8.2
-4,6,7.7
-4,7,7.7
-4,8,8.0
-4,9,7.9
-4,10,9.1
-4,11,8.1
-4,12,8.7
-4,13,9.2
-5,1,8.5
-5,2,8.6
-5,3,8.8
-5,4,8.5
-5,5,8.1
-5,6,8.0
-5,7,8.0
-5,8,8.4
-5,9,8.5
-5,10,8.1
-5,11,8.3
-5,12,8.7
-5,13,9.5
-6,1,8.4
-6,2,8.4
-6,3,8.2
-6,4,8.4
-6,5,8.6
-6,6,8.1
-6,7,8.2
-6,8,8.1
-6,9,8.1
-6,10,8.3
-6,11,8.2
-6,12,8.5
-6,13,8.1
-7,1,7.6
-7,2,8.0
-7,3,7.3
-7,4,7.9
-7,5,8.4
-7,6,7.5
-7,7,7.5
-7,8,9.0
-7,9,7.7
-7,10,8.1
-7,11,7.6
-7,12,7.6
-7,13,4.8
-7,14,6.1
-7,15,6.5
-7,16,6.7
+season,episode,name,rating
+1,1,Pilot,7.3
+1,2,Earth Skills,7.3
+1,3,Earth Kills,7.7
+1,4,Murphy's Law,7.7
+1,5,Twilight's Last Gleaming,8.0
+1,6,His Sister's Keeper,7.8
+1,7,Contents Under Pressure,8.0
+1,8,Day Trip,7.7
+1,9,Unity Day,8.1
+1,10,I Am Become Death,8.1
+1,11,The Calm,7.9
+1,12,We Are Grounders: Part 1,8.3
+1,13,We Are Grounders: Part 2,8.8
+2,1,The 48,8.2
+2,2,Inclement Weather,8.2
+2,3,Reapercussions,8.1
+2,4,Many Happy Returns,8.1
+2,5,Human Trials,8.4
+2,6,Fog of War,8.2
+2,7,Long Into an Abyss,8.4
+2,8,Spacewalker,8.8
+2,9,Remember Me,8.1
+2,10,Survival of the Fittest,8.1
+2,11,Coup de Grâce,8.6
+2,12,Rubicon,8.4
+2,13,Resurrection,8.6
+2,14,Bodyguard of Lies,8.7
+2,15,Blood Must Have Blood: Part 1,8.7
+2,16,Blood Must Have Blood: Part 2,9.2
+3,1,Wanheda: Part 1,7.8
+3,2,Wanheda: Part 2,8.2
+3,3,Ye Who Enter Here,8.7
+3,4,Watch the Thrones,8.4
+3,5,Hakeldama,7.9
+3,6,Bitter Harvest,8.0
+3,7,Thirteen,6.9
+3,8,Terms and Conditions,6.9
+3,9,Stealing Fire,7.0
+3,10,Fallen,7.2
+3,11,Nevermore,7.6
+3,12,Demons,7.2
+3,13,Join or Die,7.5
+3,14,Red Sky at Morning,7.5
+3,15,Perverse Instantiation: Part One,7.7
+3,16,Perverse Instantiation: Part Two,7.9
+4,1,Echoes,7.6
+4,2,Heavy Lies the Crown,7.6
+4,3,The Four Horsemen,7.9
+4,4,A Lie Guarded,8.0
+4,5,The Tinder Box,8.2
+4,6,We Will Rise,7.7
+4,7,Gimme Shelter,7.7
+4,8,God Complex,8.0
+4,9,DNR,7.9
+4,10,"Die All, Die Merrily",9.1
+4,11,The Other Side,8.1
+4,12,The Chosen,8.7
+4,13,Praimfaya,9.2
+5,1,Eden,8.5
+5,2,Red Queen,8.6
+5,3,Sleeping Giants,8.8
+5,4,Pandora's Box,8.5
+5,5,Shifting Sands,8.1
+5,6,Exit Wounds,8.0
+5,7,Acceptable Losses,8.0
+5,8,How We Get to Peace,8.4
+5,9,Sic Semper Tyrannis,8.5
+5,10,The Warriors Will,8.1
+5,11,The Dark Year,8.3
+5,12,Damocles: Part One,8.7
+5,13,Damocles: Part Two,9.5
+6,1,Sanctum,8.4
+6,2,Red Sun Rising,8.4
+6,3,The Children of Gabriel,8.2
+6,4,The Face Behind the Glass,8.4
+6,5,The Gospel of Josephine,8.6
+6,6,Memento Mori,8.1
+6,7,Nevermind,8.2
+6,8,The Old Man and the Anomaly,8.1
+6,9,What You Take with You,8.1
+6,10,Matryoshka,8.3
+6,11,Ashes to Ashes,8.2
+6,12,Adjustment Protocol,8.5
+6,13,The Blood of Sanctum,8.1
+7,1,From the Ashes,7.6
+7,2,The Garden,8.0
+7,3,False Gods,7.3
+7,4,Hesperides,7.9
+7,5,Welcome to Bardo,8.4
+7,6,Nakara,7.5
+7,7,The Queen's Gambit,7.5
+7,8,Anaconda,9.0
+7,9,The Flock,7.7
+7,10,A Little Sacrifice,8.1
+7,11,Etherea,7.6
+7,12,The Stranger,7.6
+7,13,Blood Giant,4.8
+7,14,A Sort of Homecoming,6.1
+7,15,The Dying of the Light,6.5
+7,16,The Last War,6.7

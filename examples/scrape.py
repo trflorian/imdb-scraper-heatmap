@@ -1,4 +1,5 @@
-from .scraper.scraper import ImdbScraper
+from imdb_heatmap.scraper import ImdbScraper
+from imdb_heatmap.serializer import episodes_to_df
 
 import pandas as pd
 
@@ -24,22 +25,17 @@ def main():
     # query = 'Pokemon'
 
     with ImdbScraper() as sc:
-        entry = sc.search(search_text=query, search_type=None)[0]
-        eid = entry.id
-        episodes = sc.get_all_episodes(eid)
-        print(episodes)
+        imdb_entry = sc.search(search_text=query, search_type=None)[0]
+        title = imdb_entry.title
+        if imdb_entry.type != 'tv':
+            print(f'Found imdb entry {title} is not a series.')
+            return
+        episodes = sc.get_all_episodes(imdb_entry.id)
 
-    df = pd.DataFrame()
-    for ep in episodes:
-        df = pd.concat([df, pd.DataFrame([{
-            'season': ep.season_num,
-            'episode': ep.episode_num,
-            'name': ep.name,
-            'rating': ep.rating
-        }])], ignore_index=True)
+    df = episodes_to_df(episodes)
 
     fn = query.replace(' ', '_')
-    df.to_csv(f'data/{fn}.csv', index=False)
+    df.to_csv(f'examples/data/{fn}.csv', index=False)
 
 if __name__ == '__main__':
     main()

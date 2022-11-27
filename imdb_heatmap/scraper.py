@@ -48,12 +48,12 @@ class ImdbScraper:
     def __exit__(self, exc_type, exc_value, traceback):
         self.driver.close()
 
-    def _restart_driver(self):
+    def _restart_driver(self) -> None:
         self.page_loaded = False
         self.driver.close()
         self.driver = webdriver.Chrome(options=self.chrome_options)
 
-    def _load_url(self, imdb_url: str):
+    def _load_url(self, imdb_url: str) -> None:
         self.variant = None
         print(f'Fetching from {imdb_url}')
         self.driver.implicitly_wait(1)
@@ -96,10 +96,10 @@ class ImdbScraper:
         print('Failed to find xpath element.')
         return None
 
-    def _xpf(self, xpid, arg):
+    def _xpf(self, xpid, arg) -> List[str]:
         return [p.format(arg) for p in self.xpaths[xpid]]
 
-    def search(self, search_text: str, search_type: str = None):
+    def search(self, search_text: str, search_type: str = None) -> List[ImdbEntry]:
         results = []
 
         # [None, 'tv', 'ft']
@@ -204,11 +204,17 @@ class ImdbScraper:
                 if rating_elem is None:
                     break
                 rating = float(rating_elem.text)
-                print(f'Ep {episode_num} is rated {rating}')
+
+                name_elem = self._load_element(
+                    xpaths=[f'//*[@id="episodes_content"]/div[2]/div[2]/div[{episode_num}]/div[2]/strong/a']
+                )
+                ep_name = name_elem.text
+
+                print(f'S{season_num} E{episode_num} rating={rating:.1f} name="{ep_name}"')
                 episodes.append(Episode(
                     season_num=season_num,
                     episode_num=episode_num,
-                    name=f'Episode {episode_num}',
+                    name=ep_name,
                     rating=rating,
                 ))
         except IndexError:

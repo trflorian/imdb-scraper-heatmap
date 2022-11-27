@@ -6,9 +6,9 @@ This tool scrapes the website https://www.imdb.com for ratings of individual epi
 A csv file is generated to cache the ratings.
 Using matplotlib, the tool then generates a heatmap representation of all episodes in the series.
 
-| ![](heatmaps/Dark.png)  |  ![](heatmaps/Breaking_Bad.png)  |
+| ![](examples/img/Dark.png)  |  ![](examples/img/Breaking_Bad.png)  |
 |---------|-----|
-| ![](heatmaps/Game_Of_Thrones.png) | ![](heatmaps/Navy_CIS.png) |
+| ![](examples/img/Game_Of_Thrones.png) | ![](examples/img/Navy_CIS.png) |
 
 ## Examples
 
@@ -26,7 +26,7 @@ The following table shows transposed data for the series "Breaking Bad" which is
 The following image shows an example of the heatmap that can be generated from the above table data. 
 The heatmap in this example saved to `heatmaps/Breaking Bad.png`. 
 
-![](heatmaps/Breaking_Bad.png)
+![](examples/img/Breaking_Bad.png)
 
 ## Quickstart
 

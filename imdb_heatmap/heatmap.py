@@ -107,7 +107,7 @@ def main():
         all_series = [custom_series]
     else:
         # load all series in data folder
-        all_series = ['.'.join(s.split('.')[:-1]) for s in os.listdir('data')]
+        all_series = ['.'.join(s.split('.')[:-1]) for s in os.listdir('../examples/data')]
 
     # check override
     if len(all_series) > 0 and save and not override:

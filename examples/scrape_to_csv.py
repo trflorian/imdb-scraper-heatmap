@@ -23,18 +23,28 @@ def main():
 
         with open(args.file, 'r') as f:
             for line in f.readlines():
-                queries.append(line)
+                # ignore empty or commented lines
+                l_trimmed = line.replace(' ', '')
+                if len(l_trimmed) > 0 and not l_trimmed.startswith('#'):
+                    queries.append(line)
 
     if len(queries) == 0:
         print('No query supplied. Use --help to see how to usae this command.')
     else:
+        print(f'Scraping {len(queries)} series')
         for query in queries:
             with ImdbScraper() as sc:
-                imdb_entry = sc.search(search_text=query, search_type=None)[0]
-                title = imdb_entry.title
-                if imdb_entry.type != 'tv':
-                    print(f'Found imdb entry id="{imdb_entry.id}" name="{title}" type="{imdb_entry.type}" is not a series.')
+                entries = sc.search(search_text=query, search_type='tv', max_results=5)
+                series_entries = [e for e in entries if e.type == 'tv']
+                if len(series_entries) == 0:
+                    closest_match_text = ''
+                    if len(entries) > 0:
+                        e = entries[0]
+                        closest_match_text = f'Closest match: id="{e.id}" name="{e.title}" type="{e.type}"'
+                    print(f'Found no imdb entry for query "{query}". {closest_match_text}')
                     continue
+                imdb_entry = series_entries[0]
+                title = imdb_entry.title
                 episodes = sc.get_all_episodes(imdb_entry.id)
 
             df = episodes_to_df(episodes)

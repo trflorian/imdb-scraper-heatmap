@@ -8,8 +8,13 @@ from imdb_heatmap.heatmap import heatmap_plot
 from imdb_heatmap.serializer import df_to_episodes
 
 
-def fn(series: str) -> str:
+def to_fn(series: str) -> str:
     return series.replace(' ', '_')
+
+def fn_match(f1: str, f2: str):
+    f1 = f1.lower().replace(' ', '').replace('_', '').replace(':', '')
+    f2 = f2.lower().replace(' ', '').replace('_', '').replace(':', '')
+    return f1 in f2 or f2 in f1
 
 def main():
     # define and parse args
@@ -33,29 +38,38 @@ def main():
     data_path = 'examples/data'
 
     # if custom series name supplied from arguments, use this. otherwise load all series from data directory
+    all_series = ['.'.join(s.split('.')[:-1]) for s in os.listdir('examples/data')]
     if custom_series is not None:
-        all_series = [custom_series]
+        series = [custom_series]
     else:
         # load all series in data folder
-        all_series = ['.'.join(s.split('.')[:-1]) for s in os.listdir('examples/data')]
+        series = all_series
 
     # check override
-    if len(all_series) > 0 and save and not override:
-        tot_before = len(all_series)
-        all_series = [s for s in all_series if not os.path.isfile(f'{img_path}/{fn(s)}.png')]
-        tot_after = len(all_series)
+    if len(series) > 0 and save and not override:
+        tot_before = len(series)
+        series = [s for s in series if not os.path.isfile(f'{img_path}/{to_fn(s)}.png')]
+        tot_after = len(series)
         if tot_after < tot_before:
             print(f'Ignoring {tot_before - tot_after}/{tot_before} series because these heatmap images already exist '
                   f'and override flag is not set.')
 
     # create heatmap plots
-    if len(all_series) == 0:
+    if len(series) == 0:
         print('No series to plot...')
     else:
-        for series in tqdm(all_series):
-            df = pd.read_csv(f'{data_path}/{fn(series)}.csv')
+        for s in tqdm(series):
+            fn = f'{data_path}/{to_fn(s)}.csv'
+            if not os.path.isfile(fn):
+                # try to find closest match
+                matches = [m for m in all_series if fn_match(s, m)]
+                if len(matches) == 0:
+                    print(f'No match found in data for {fn}.')
+                    continue
+                fn = f'{data_path}/{to_fn(matches[0])}.csv'
+            df = pd.read_csv(fn)
             episodes = df_to_episodes(df)
-            heatmap_plot(series_name=series, episodes=episodes, show=show, save_fn=f'{img_path}/{fn(series)}.png',
+            heatmap_plot(series_name=s, episodes=episodes, show=show, save_fn=f'{img_path}/{to_fn(s)}.png',
                          dark_mode=dark_mode)
 
 if __name__ == '__main__':

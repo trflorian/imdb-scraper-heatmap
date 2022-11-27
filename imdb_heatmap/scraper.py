@@ -99,7 +99,7 @@ class ImdbScraper:
     def _xpf(self, xpid, arg) -> List[str]:
         return [p.format(arg) for p in self.xpaths[xpid]]
 
-    def search(self, search_text: str, search_type: str = None) -> List[ImdbEntry]:
+    def search(self, search_text: str, search_type: str = None, max_results: int = 5) -> List[ImdbEntry]:
         results = []
 
         # [None, 'tv', 'ft']
@@ -116,6 +116,9 @@ class ImdbScraper:
 
         # //*[@id="__next"]/main/div[2]/div[3]/section/div/div[1]/section[2]/div[2]/ul --- if matches, ul children <= 5
         num_results = len(search_results)
+
+        # cap results at max_results
+        num_results = min(max_results, num_results)
 
         # individual results
         # //*[@id="__next"]/main/div[2]/div[3]/section/div/div[1]/section[2]/div[2]/ul/li[1]/div[2]/div[1]/a

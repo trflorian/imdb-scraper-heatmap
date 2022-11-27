@@ -5,6 +5,8 @@
 This tool scrapes the website https://www.imdb.com for ratings of individual episodes of a series.
 A csv file is generated to cache the ratings.
 Using matplotlib, the tool then generates a heatmap representation of all episodes in the series.
+Because this tools relies on scraping the html tree of the imdb page, it might break anytime. 
+Feel free to message me if the scraper doesn't work anymore or create a pull request with adjusted xpaths.
 
 | ![](examples/img/Dark.png)  |  ![](examples/img/Breaking_Bad.png)  |
 |---------|-----|

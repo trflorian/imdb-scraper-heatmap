@@ -11,8 +11,8 @@ from selenium.webdriver.common.by import By
 from .models import Episode, ImdbEntry
 
 class ImdbScraper:
-    timeout = 1
-    max_retries = 3
+    timeout = 2
+    max_retries = 6
     max_episodes = 100
     base_url = 'https://www.imdb.com'
     driver = None

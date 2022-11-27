@@ -1,248 +1,244 @@
-season,episode,rating
-1,1,7.1
-1,2,7.1
-1,3,7.3
-1,4,7.2
-1,5,7.3
-1,6,7.3
-1,7,7.2
-1,8,7.2
-1,9,7.4
-1,10,7.3
-2,1,7.7
-2,2,7.5
-2,3,7.5
-2,4,7.5
-2,5,7.6
-2,6,7.7
-2,7,7.9
-2,8,7.7
-2,9,7.8
-2,10,7.7
-3,1,7.7
-3,2,7.9
-3,3,7.8
-3,4,7.8
-3,5,8.2
-3,6,7.9
-3,7,7.7
-3,8,7.7
-3,9,7.7
-4,1,8.3
-4,2,7.8
-4,3,8.0
-4,4,8.2
-4,5,7.7
-4,6,7.6
-4,7,7.8
-4,8,7.8
-4,9,7.7
-4,10,7.7
-5,1,7.8
-5,2,7.9
-5,3,7.8
-5,4,8.0
-5,5,7.9
-5,6,8.1
-5,7,7.9
-5,8,8.3
-5,9,7.9
-6,1,7.9
-6,2,8.1
-6,3,7.9
-6,4,7.9
-6,5,7.8
-6,6,8.1
-6,7,8.0
-6,8,7.9
-6,9,7.8
-6,10,7.9
-6,11,7.8
-7,1,7.9
-7,2,7.9
-7,3,8.2
-7,4,8.3
-7,5,8.3
-7,6,7.8
-7,7,8.5
-8,1,8.2
-8,2,7.9
-8,3,8.6
-8,4,7.9
-8,5,7.9
-8,6,8.2
-8,7,7.9
-8,8,8.1
-9,1,8.4
-9,2,8.0
-9,3,8.9
-9,4,8.0
-9,5,8.2
-9,6,8.4
-9,7,7.7
-9,8,9.0
-10,1,8.2
-10,2,8.7
-10,3,8.3
-10,4,9.1
-10,5,8.5
-10,6,7.8
-10,7,8.6
-10,8,8.0
-10,9,8.7
-10,10,8.3
-10,11,8.2
-11,1,8.3
-11,2,7.8
-11,3,8.2
-11,4,8.5
-11,5,8.0
-11,6,8.4
-12,1,8.4
-12,2,8.3
-12,3,8.1
-12,4,8.5
-12,5,7.9
-12,6,8.4
-12,7,8.0
-12,8,9.4
-13,1,8.9
-13,2,8.6
-13,3,8.2
-13,4,8.0
-13,5,8.4
-13,6,8.4
-13,7,8.5
-14,1,8.5
-14,2,8.5
-14,3,8.1
-14,4,8.1
-14,5,7.9
-14,6,9.3
-14,7,8.1
-15,1,8.6
-15,2,8.1
-15,3,8.1
-15,4,9.0
-15,5,8.9
-15,6,8.4
-15,7,8.4
-15,8,8.4
-15,9,8.5
-16,1,9.0
-16,2,8.2
-16,3,8.1
-16,4,8.5
-16,5,8.1
-16,6,8.3
-16,7,8.1
-16,8,8.1
-16,9,8.2
-17,1,8.2
-17,2,8.4
-17,3,8.2
-17,4,8.8
-17,5,8.1
-17,6,7.8
-18,1,8.2
-18,2,8.4
-18,3,8.2
-18,4,8.1
-18,5,8.1
-18,6,7.8
-18,7,8.0
-18,8,8.5
-19,1,8.5
-19,2,8.5
-19,3,8.2
-19,4,8.1
-19,5,8.4
-19,6,9.1
-19,7,9.2
-19,8,7.3
-19,9,7.2
-20,1,8.3
-20,2,8.2
-20,3,8.6
-20,4,8.7
-20,5,8.6
-20,6,8.3
-21,1,8.0
-21,2,8.3
-21,3,8.3
-21,4,8.2
-21,5,8.5
-21,6,9.1
-21,7,9.2
-22,1,8.7
-22,2,8.5
-22,3,8.8
-22,4,8.4
-22,5,8.4
-22,6,8.7
-22,7,8.3
-22,8,9.4
-23,1,2.2
-23,2,2.6
-23,3,2.8
-23,4,2.6
-23,5,2.6
-23,6,2.5
-24,1,6.2
-24,2,5.9
-24,3,6.1
-24,4,6.2
-24,5,5.6
-24,6,5.0
-24,7,5.2
-25,1,5.9
-25,2,6.2
-25,3,6.7
-25,4,6.1
-25,5,5.6
-25,6,5.7
-26,1,5.3
-26,2,5.0
-26,3,5.3
-26,4,6.1
-26,5,5.4
-27,1,5.6
-27,2,5.4
-27,3,4.5
-27,4,4.9
-27,5,5.9
-28,1,6.5
-28,2,6.1
-28,3,6.3
-28,4,6.5
-28,5,5.8
-28,6,6.1
-28,7,6.2
-29,1,6.0
-29,2,6.6
-29,3,5.6
-29,4,6.1
-29,5,5.2
-30,1,6.3
-30,2,5.7
-30,3,6.2
-30,4,5.5
-31,1,7.2
-31,2,6.1
-31,3,5.4
-31,4,6.3
-31,5,5.7
-31,6,4.9
-32,1,6.2
-32,2,5.5
-32,3,5.7
-32,4,6.4
-32,5,5.9
-33,1,6.1
-33,2,7.1
-33,3,5.2
-33,4,5.9
-34,1,6.1
-34,2,7.1
-34,3,5.2
-34,4,5.9
+season,episode,name,rating
+1,1,The Legacy Begins,7.1
+1,2,Bus Jumps Over Motorbikes,7.1
+1,3,Grannies Doing Doughnuts,7.3
+1,4,Clarkson Drives the Aston Martin Vanquish,7.2
+1,5,Budget Bond Car,7.3
+1,6,Grannies Attempt Hand Brake Parking,7.3
+1,7,Britain's Fastest Faith Race,7.2
+1,8,Britain's Fastest White-Van Driver,7.2
+1,9,Can The Stig Be Beat?,7.4
+1,10,Britain's Fastest Faith Race 2,7.3
+2,1,Nissan Sunny vs. Jet Engine,7.7
+2,2,Election Rally Car Showdown,7.5
+2,3,Which Country Has the Fastest Supercar?,7.5
+2,4,Lots of Jaguars and Boris Johnson,7.5
+2,5,Clarkson and the Porsche 911,7.6
+2,6,Mitsubishi Evo VIII vs. Subaru Impreza STI,7.7
+2,7,Crash Testing a Renault Megane,7.9
+2,8,Topless Showdown,7.7
+2,9,Clarkson Backseat Drives a Vauxhall,7.8
+2,10,Land Rover Reliability Challenge,7.7
+3,1,Celebrating 40 Years of the Porsche 911,7.7
+3,2,Can a Volvo Estate Jump Four Caravans?,7.9
+3,3,How to Escape a Sinking Car,7.8
+3,4,Lamborghini 40th Anniversary Celebration,7.8
+3,5,Is the Toyota Hilux Really Indestructible?,8.2
+3,6,Is the Toyota Hilux Really indestructible? Part 2,7.9
+3,7,The Best British Car of All Time,7.7
+3,8,Generation Battle - Mercedes SL vs. Mercedes SL,7.7
+3,9,Clarkson vs. the Chrysler Crossfire,7.7
+4,1,Race to Monte Carlo - Aston Martin DB9 vs. Public Transport,8.3
+4,2,Hammond Tests the Cadillac Escalade and Puts a Nun in a Monster Truck,7.8
+4,3,£100 Car Challenge,8.0
+4,4,Bullseye! The Boys Play Car Darts,8.2
+4,5,Sport Coupes Shootout - 911 vs. 6 Series vs. XKR,7.7
+4,6,Can You Run a Car on Poo?,7.6
+4,7,Hammond and May Try Mini-Cabbing,7.8
+4,8,Clarkson Drives His Dream Car - the Ford GT,7.8
+4,9,Can You Parachute Into a Moving Car?,7.7
+4,10,Clarkson Gets Wet in the X3,7.7
+5,1,Beach Battle - Jaguar vs. Chrysler vs. Vauxhall,7.8
+5,2,Mountainboarder vs. Rally Car,7.9
+5,3,Clarkson Climbs a Scottish Mountain,7.8
+5,4,24 Hours in a Smart Car,8.0
+5,5,Hammond Invents People Carrier Racing,7.9
+5,6,"Can You Buy a Decent Porsche for £1,500?",8.1
+5,7,Evo vs. Lamborghini,7.9
+5,8,Ferrari 612 Scaglietti vs. Jet Plane,8.3
+5,9,Clarkson Gets a Facelift in an Ariel Atom,7.9
+6,1,Car Soccer in Toyota Aygos,7.9
+6,2,"£1,500 Two-Door Coupe Challenge",8.1
+6,3,Clarkson Opens a Public Pool With a Rolls-Royce,7.9
+6,4,The Boys' Mother's Review Cars,7.9
+6,5,Clarkson Compares the Boxster S and SLK 55 Under Sniper Fire,7.8
+6,6,Mercedes McLaren SLR vs. Boat,8.1
+6,7,Fiat Panda vs. Marathon Runner,8.0
+6,8,Testing Convertibles in Iceland,7.9
+6,9,Hammond and May Play Road Test Russian Roulette,7.8
+6,10,Can a Jeep Drive Across a Lake?,7.9
+6,11,Hammond Runs With the Bulls,7.8
+7,1,Isle of Man Shootout - V8 Vantage vs. M6 vs. Carrera S,7.9
+7,2,Hammond and May Race Life-Sized RC Cars,7.9
+7,3,Supercar Road Trip - Ford GT vs. Ferrari F430 vs. Pagani Zonda,8.2
+7,4,"Mid-Engine Italian Supercars for Under £10,000",8.3
+7,5,Bugatti Veyron vs. Cessna 182 Airplane,8.3
+7,6,Mazda MX-5 vs. Greyhound,7.8
+7,7,Winter Olympics,8.5
+8,1,Clarkson Drives the Koenigsegg CCX,8.2
+8,2,Hammond Races a Jet-Powered Kayak,7.9
+8,3,Amphibious Car Challenge,8.6
+8,4,Porsche Cayenne Turbo S vs. Parachute Team,7.9
+8,5,Playing Car-Soccer in Toyota Aygos - Round 2,7.9
+8,6,Top Gear Sets a World Record with an F1 Car,8.2
+8,7,The Boys Build a Caterham,7.9
+8,8,Being Van Roadies for The Who,8.1
+9,1,Captain Slow Meets the Bugatti Veyron,8.4
+9,2,Reliant Robin Space Shuttle Challenge,8.0
+9,3,U. S. Special,8.9
+9,4,The Everyday Stretch Limo Challenge,8.0
+9,5,Episode #9.5,8.2
+9,6,Stretch Limos from ordinary cars.,8.4
+9,7,Top Gear of the Pops,7.7
+9,8,Polar Special,9.0
+10,1,The Search for the Greatest Driving Road in the World,8.2
+10,2,Amphibious Car Challenge II,8.7
+10,3,Bugatti Veyron vs. Typhoon Jet Fighter,8.3
+10,4,Botswana Special,9.1
+10,5,London Race,8.5
+10,6,MotorHome Racing - Alfa Romeo 159 vs Tall Man Across The Humber Estuary,7.8
+10,7,"£1,200 British Leyland Cheap-Car Challenge",8.6
+10,8,Renault R25 Formula One Car - Automobile History Investigation - GPS Satellite Self-Controlled BMW 330i,8.0
+10,9,Britcar 24 Hour Endurance Race - Fiat 500 vs. BMX Riders Through Budapest Race,8.7
+10,10,German Performance Saloon Cars - Top Gear Awards 2007,8.3
+10,11,Top Ground Gear Force,8.2
+11,1,Police Car Challenge,8.3
+11,2,Audi RS6 vs French Skiers Race - TG Stuntman: MG Maestro Cork-Screw Jump,7.8
+11,3,"Cheap Car Challenge: Alfa Romeos for £1,000",8.2
+11,4,Nissan GT-R vs Japanese Bullet Train Epic Race,8.5
+11,5,Classic Luxury Limousines - Daihatsu Terios Fox Hunting Challenge,8.0
+11,6,The British (Top Gear) vs. The Germans (D Motor) Showdown,8.4
+12,1,"£5,000 Lorry Challenge",8.4
+12,2,Muscle Car Challenge,8.3
+12,3,Tuning Challenge - Finnish Folk Racing - Corvette V-8 Engine Blender-Made Smoothie,8.1
+12,4,Economy Race From Basel To Blackpool Illuminations,8.5
+12,5,Portofino To Saint-Tropez Race - Powerboat Vs. Ferrari Daytona - Best Bus For British City Streets,7.9
+12,6,Did The Communists Make A Good Car? - Ford Fiesta With The Royal Marines,8.4
+12,7,50 Years Of British Touring Car Racing - TG Stuntman Takes On Fifth Gear's Caravan Jump Record - Top Gear Awards 2008,8.0
+12,8,Vietnam Special,9.4
+13,1,Race To The North - Ferrari FXX Lap Time - The Stig Revealed,8.9
+13,2,"Perfect £2,500 Car For 17 Year Olds",8.6
+13,3,Cheap And Cheerful Car I - Cheap And Cheerful Car II - Gymkhana Rallying On The Airfield,8.2
+13,4,Porsche Panamera Vs. The Royal Mail Service Race - Playing British Bulldogs With Live Fire Against The British Army In A Mitsubishi Lancer Evolution VII,8.0
+13,5,"Proof Of Three £1,500 Rear Wheel Drive Coupés Better Than Front Wheel Drive - Clarkson's Inspired Greenhouse Trailer Design To Save The World",8.4
+13,6,"Pre-1982 £3,000 Classic Cars For A TSD Rally In Mallorca",8.4
+13,7,Producing Volkswagen Scirocco Adverts,8.5
+14,1,Romanian GT Road Trip To Find The Transfagarasan Highway,8.5
+14,2,Build An Electric Car Better Than A G-Wiz,8.5
+14,3,Fly An Airship Caravan With A Lamborghini Gallardo LP550-2 Valentino Balboni - Why Lancia Has Made The Greatest Number Of Great Cars,8.1
+14,4,Airport Vehicle Motorsport,8.1
+14,5,Make An Automotive Art Gallery To Prove Cars Are More Popular Than Traditional Art,7.9
+14,6,Bolivia Special,9.3
+14,7,Low-Budget Worldwide Review Of The BMW X6 - James May And Margaret Calvert Reflect On The Evolution Of UK Road Signs - Top Gear Awards 2009,8.1
+15,1,"Toyota Hilux Invincible Up An Icelandic Volcano - Farewell To The Former Reasonably Priced Car, The Chevrolet Lacetti - Why Reliant Went Out Of Business - 1994 Reliant Robin",8.6
+15,2,"Find A £5,000 Everyday Second-Hand Sports Saloon For Track Days",8.1
+15,3,Find The Greatest Four-Door Supercar By Driving Wedding Guests,8.1
+15,4,Building Motor Homes,9.0
+15,5,"Volkswagen Touareg Vs Swedish Snowmobilers - Reach 258mph (415 km/h) In The Bugatti Veyron Super Sport - Commemorating Racing Driver Ayrton Senna, Lewis Hamilton Drives Senna's 1988 F1 Racing Car",8.9
+15,6,"Old British Roadsters For £5,000",8.4
+15,7,The Best Of Top Gear: 2010 No.1,8.4
+15,8,The Best Of Top Gear: 2010 No.2,8.4
+15,9,East Coast Road Trip,8.5
+16,1,Middle East Special,9.0
+16,2,Yeti Road Test,8.2
+16,3,Top Gear Ashes - British Hosts Vs Top Gear Australia Hosts,8.1
+16,4,Albania Road Trip,8.5
+16,5,"Second-Hand Four Seater Convertibles For £2,000",8.1
+16,6,Convert A Combine Harvester Into A Snow Plough,8.3
+16,7,Episode #16.6,8.1
+16,8,Episode #16.7,8.1
+16,9,Episode #16.8,8.2
+17,1,Jaguar E-Type 50th Birthday - Mini John Cooper Works WRC And Amy Williams Race,8.2
+17,2,High Performance Hatchbacks In Lucca And Around The Monaco Grand Prix Track,8.4
+17,3,Second-Hand Bargains For The Price Of The Nissan Pixo - Examine Toughness Of The Range Rover Evoque In Las Vegas,8.2
+17,4,Making A Train Out Of A Specially Modified Car And Caravans As Carriages,8.8
+17,5,Demolish A House With Second-Hand Military Equipment Vs Demolition Experts,8.1
+17,6,Extraordinary Rally Team Of Amputee Military Veterans - Electric Cars To The British Seaside,7.8
+18,1,India Special,8.2
+18,2,Super Cars Across Italy,8.4
+18,3,Hammond Learns About NASCAR Racing In Texas - Clarkson And May Examine China's Car Industry In Beijing,8.2
+18,4,Creating The Climactic Car Chase For 'The Sweeney',8.1
+18,5,Build And Test Off-Road Mobility Scooters In The Countryside,8.1
+18,6,Tribute To Swedish Car Maker Saab - Rally-Spec Skoda Vs Jet-Powered Flying Man,7.8
+18,7,Test Of Three Stripped Track Cars,8.0
+18,8,Motor Racing Cheaper Than Playing Golf? - May's Childhood Dream Car: The Ferrari 250 GT California.,8.5
+19,1,Taking The Bentley Continental GT Speed To A Welsh Rally Stage - Building A Car Smaller Than A Peel P50: Clarkson's P45,8.5
+19,2,"Super Car Road Trip From Las Vegas, Nevada To Calexico, California",8.5
+19,3,Shelby Mustang GT500 Vs The Pan-European Rail Network Epic Race From Wembley To The San Siro Stadium In Milan,8.2
+19,4,Rugby Match With Kia Cee'ds At Twickenham,8.1
+19,5,Range Rover Vs An Autonomous Military Machine - Designing A Vehicle For The Elderly: Rover James,8.4
+19,6,"Africa Special, Part 1",9.1
+19,7,"Africa Special, Part 2",9.2
+19,8,Best of Top Gear 1,7.3
+19,9,Best of Top Gear 2,7.2
+20,1,AC45 Racing Yacht Vs Toyota Auris - Introduction Of The New Reasonably Priced Car: Vauxhall Astra,8.3
+20,2,Search For The World's Best Taxi - Tribute To BBC Television Centre,8.2
+20,3,Spanish Road Trip In Budget Convertibles,8.6
+20,4,Building The Ford Transit Hovervan,8.7
+20,5,Best Crossovers For Caravanners,8.6
+20,6,Tribute To British Automobile Manufacturing,8.3
+21,1,"Jeremy, James And Richard Prove That The Hot Hatchbacks Of Their Youth Were Better Than The Modern Equivalents",8.0
+21,2,Alfa Romeo 4C Vs Gibbs Quadski - James Visits Camp Bastion In Afghanistan,8.3
+21,3,Trip Through Ukraine In Compact Hatchbacks,8.3
+21,4,Clarkson Attempts To Prove That Cars Are Better Than Motorbikes,8.2
+21,5,Making A Commercial For Reducing Cycle-Related Accidents,8.5
+21,6,Burma Special: Part 1,9.1
+21,7,Burma Special: Part 2,9.2
+22,1,Race Across The Urban Landscape Of St Petersburg,8.7
+22,2,Australian Northern Territory Road Trip In GT Cars,8.5
+22,3,Homemade Ambulance Challenge,8.8
+22,4,Tribute To The Land Rover Defender,8.4
+22,5,May And Clarkson Look At The Weird And Wonderful History Of Peugeot,8.4
+22,6,"Hammond Is Dropped Into British Columbia, Canada To Test A Watch With A Built-In Emergency Beacon",8.7
+22,7,May Competes In A World Rallycross Race Alongside Tanner Foust,8.3
+22,8,Episode #22.8,9.4
+23,1,Episode #23.1,2.2
+23,2,Episode #23.2,2.6
+23,3,Episode #23.3,2.8
+23,4,Episode #23.4,2.6
+23,5,Episode #23.5,2.6
+23,6,Episode #23.6,2.5
+24,1,Episode #24.1,6.2
+24,2,Episode #24.2,5.9
+24,3,Episode #24.3,6.1
+24,4,Episode #24.4,6.2
+24,5,Episode #24.5,5.6
+24,6,Episode #24.6,5.0
+24,7,Episode #24.7,5.2
+25,1,Episode #25.1,5.9
+25,2,Episode #25.2,6.2
+25,3,Episode #25.3,6.7
+25,4,Episode #25.4,6.1
+25,5,Episode #25.5,5.6
+25,6,Episode #25.6,5.7
+26,1,Episode #26.1,5.3
+26,2,Episode #26.2,5.0
+26,3,Episode #26.3,5.3
+26,4,Episode #26.4,6.1
+26,5,Episode #26.5,5.4
+27,1,Episode #27.1,5.6
+27,2,Episode #27.2,5.4
+27,3,Episode #27.3,4.5
+27,4,Episode #27.4,4.9
+27,5,Episode #27.5,5.9
+28,1,Nepal Special,6.5
+28,2,Episode #28.1,6.1
+28,3,Episode #28.2,6.3
+28,4,Episode #28.3,6.5
+28,5,Episode #28.4,5.8
+28,6,Episode #28.5,6.1
+28,7,Episode #28.6,6.2
+29,1,Episode #29.1,6.0
+29,2,Episode #29.2,6.6
+29,3,Episode #29.3,5.6
+29,4,Episode #29.4,6.1
+29,5,Episode #29.5,5.2
+30,1,Episode #30.1,6.3
+30,2,Episode #30.2,5.7
+30,3,Episode #30.3,6.2
+30,4,Episode #30.4,5.5
+31,1,Episode #31.1,7.2
+31,2,Episode #31.2,6.1
+31,3,Episode #31.3,5.4
+31,4,Episode #31.4,6.3
+31,5,Episode #31.5,5.7
+31,6,Driving Home for Christmas,4.9
+32,1,Episode #32.1,6.2
+32,2,Episode #32.2,5.5
+32,3,Episode #32.3,5.7
+32,4,Episode #32.4,6.4
+32,5,Episode #32.5,5.9
+33,1,Episode #33.1,6.1
+33,2,Episode #33.2,7.1
+33,3,Episode #33.3,5.2
+33,4,Episode #33.4,5.7

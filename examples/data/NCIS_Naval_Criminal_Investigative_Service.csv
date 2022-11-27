@@ -1,0 +1,420 @@
+season,episode,name,rating
+1,1,Yankee White,8.1
+1,2,Hung Out to Dry,7.5
+1,3,Seadog,7.5
+1,4,The Immortals,7.3
+1,5,The Curse,7.8
+1,6,High Seas,7.6
+1,7,Sub Rosa,8.0
+1,8,Minimum Security,7.6
+1,9,Marine Down,7.9
+1,10,Left for Dead,7.6
+1,11,Eye Spy,7.5
+1,12,My Other Left Foot,7.7
+1,13,"One Shot, One Kill",8.1
+1,14,The Good Samaritan,7.6
+1,15,Enigma,7.7
+1,16,Bête Noire,8.5
+1,17,The Truth Is Out There,7.4
+1,18,UnSEALeD,7.7
+1,19,Dead Man Talking,8.1
+1,20,Missing,7.9
+1,21,Split Decision,7.7
+1,22,A Weak Link,7.5
+1,23,Reveille,8.2
+2,1,See No Evil,8.4
+2,2,The Good Wives Club,7.7
+2,3,Vanished,7.3
+2,4,Lt. Jane Doe,7.8
+2,5,The Bone Yard,8.0
+2,6,Terminal Leave,7.6
+2,7,Call of Silence,9.0
+2,8,Heart Break,7.4
+2,9,Forced Entry,7.7
+2,10,Chained,8.1
+2,11,Black Water,7.6
+2,12,Doppelgänger,8.0
+2,13,The Meat Puzzle,8.2
+2,14,Witness,7.9
+2,15,Caught on Tape,7.5
+2,16,Pop Life,7.5
+2,17,An Eye for an Eye,7.6
+2,18,Bikini Wax,7.5
+2,19,Conspiracy Theory,7.7
+2,20,Red Cell,7.7
+2,21,Hometown Hero,7.7
+2,22,SWAK,8.9
+2,23,Twilight,8.9
+3,1,Kill Ari (Part I),8.6
+3,2,Kill Ari (Part II),8.7
+3,3,Mind Games,8.0
+3,4,Silver War,7.8
+3,5,Switch,7.4
+3,6,The Voyeur's Web,7.5
+3,7,Honor Code,8.2
+3,8,Under Covers,8.5
+3,9,Frame Up,8.5
+3,10,Probie,8.0
+3,11,Model Behavior,7.4
+3,12,Boxed In,7.9
+3,13,Deception,7.5
+3,14,Light Sleeper,7.7
+3,15,Head Case,7.5
+3,16,Family Secret,7.5
+3,17,Ravenous,7.7
+3,18,Bait,8.2
+3,19,Iced,7.6
+3,20,Untouchable,7.6
+3,21,Bloodbath,8.1
+3,22,Jeopardy,7.9
+3,23,Hiatus (Part #1),8.4
+3,24,Hiatus (Part #2),8.6
+4,1,Shalom,8.1
+4,2,Escaped,7.9
+4,3,Singled Out,7.5
+4,4,Faking It,7.7
+4,5,Dead and Unburied,7.6
+4,6,Witch Hunt,8.0
+4,7,Sandblast,7.6
+4,8,Once a Hero,7.8
+4,9,Twisted Sister,8.2
+4,10,Smoked,8.0
+4,11,Driven,7.7
+4,12,Suspicion,7.7
+4,13,Sharif Returns,7.7
+4,14,Blowback,7.8
+4,15,Friends & Lovers,7.6
+4,16,Dead Man Walking,8.5
+4,17,Skeletons,7.6
+4,18,Iceman,7.7
+4,19,Grace Period,8.3
+4,20,Cover Story,7.9
+4,21,Brothers in Arms,7.3
+4,22,In the Dark,7.5
+4,23,Trojan Horse,7.8
+4,24,Angel of Death,8.2
+5,1,Bury Your Dead,8.1
+5,2,Family,7.5
+5,3,Ex-File,7.8
+5,4,Identity Crisis,7.8
+5,5,Leap of Faith,7.8
+5,6,Chimera,8.4
+5,7,Requiem,8.9
+5,8,Designated Target,7.5
+5,9,Lost & Found,8.2
+5,10,Corporal Punishment,7.9
+5,11,Tribes,7.3
+5,12,Stakeout,7.6
+5,13,Dog Tags,7.7
+5,14,Internal Affairs,8.1
+5,15,In the Zone,7.5
+5,16,Recoil,7.8
+5,17,About Face,7.7
+5,18,Judgment Day,8.6
+5,19,Judgment Day: Part 2,8.8
+6,1,Last Man Standing,8.1
+6,2,Agent Afloat,7.8
+6,3,Capitol Offense,7.5
+6,4,Heartland,8.9
+6,5,Nine Lives,7.5
+6,6,Murder 2.0,8.2
+6,7,Collateral Damage,7.8
+6,8,Cloak,8.5
+6,9,Dagger,8.2
+6,10,Road Kill,7.4
+6,11,Silent Night,7.9
+6,12,Caged,7.9
+6,13,Broken Bird,7.7
+6,14,Love & War,7.5
+6,15,Deliverance,7.6
+6,16,Bounce,7.9
+6,17,South by Southwest,7.7
+6,18,Knockout,7.0
+6,19,Hide and Seek,7.5
+6,20,Dead Reckoning,7.7
+6,21,Toxic,7.8
+6,22,Legend: Part 1,8.0
+6,23,Legend: Part 2,8.1
+6,24,Semper Fidelis,8.3
+6,25,Aliyah,8.5
+8,1,Spider and the Fly,8.4
+8,2,Worst Nightmare,8.0
+8,3,Short Fuse,7.7
+8,4,Royals & Loyals,7.7
+8,5,Dead Air,7.4
+8,6,Cracked,7.5
+8,7,Broken Arrow,8.0
+8,8,Enemies Foreign,8.2
+8,9,Enemies Domestic,8.4
+8,10,False Witness,7.6
+8,11,Ships in the Night,8.0
+8,12,Recruited,7.8
+8,13,Freedom,7.5
+8,14,A Man Walks Into a Bar...,8.3
+8,15,Defiance,7.7
+8,16,Kill Screen,7.6
+8,17,One Last Score,7.5
+8,18,Out of the Frying Pan,7.9
+8,19,Tell-All,7.5
+8,20,Two-Faced,8.1
+8,21,Dead Reflection,8.0
+8,22,Baltimore,8.5
+8,23,Swan Song,8.4
+8,24,Pyramid,8.4
+9,1,Nature of the Beast,8.2
+9,2,Restless,7.6
+9,3,The Penelope Papers,7.4
+9,4,Enemy on the Hill,7.7
+9,5,Safe Harbor,7.7
+9,6,Thirst,7.4
+9,7,Devil's Triangle,8.1
+9,8,Engaged (Part I),8.0
+9,9,Engaged (Part II),8.1
+9,10,Sins of the Father,7.6
+9,11,Newborn King,8.0
+9,12,Housekeeping,8.0
+9,13,A Desperate Man,7.7
+9,14,Life Before His Eyes,8.1
+9,15,Secrets,7.8
+9,16,Psych Out,7.7
+9,17,Need to Know,7.5
+9,18,The Tell,7.6
+9,19,The Good Son,7.6
+9,20,The Missionary Position,7.3
+9,21,Rekindled,8.0
+9,22,Playing with Fire,8.1
+9,23,Up in Smoke,8.1
+9,24,Till Death Do Us Part,8.8
+10,1,Extreme Prejudice,8.2
+10,2,Recovery,7.8
+10,3,Phoenix,7.6
+10,4,Lost at Sea,7.5
+10,5,The Namesake,8.1
+10,6,Shell Shock: Part I,7.6
+10,7,Shell Shock: Part II,7.8
+10,8,Gone,8.1
+10,9,Devil's Trifecta,8.5
+10,10,You Better Watch Out,7.8
+10,11,Shabbat Shalom,8.7
+10,12,Shiva,8.6
+10,13,Hit and Run,7.5
+10,14,Canary,8.2
+10,15,Hereafter,7.3
+10,16,Detour,8.3
+10,17,Prime Suspect,7.7
+10,18,Seek,8.5
+10,19,Squall,7.7
+10,20,Chasing Ghosts,7.4
+10,21,Berlin,8.1
+10,22,Revenge,8.2
+10,23,Double Blind,7.9
+10,24,Damned If You Do,8.4
+11,1,Whiskey Tango Foxtrot,8.2
+11,2,"Past, Present, and Future",8.6
+11,3,Under the Radar,7.5
+11,4,Anonymous Was a Woman,7.9
+11,5,Once a Crook,7.6
+11,6,Oil and Water,7.5
+11,7,Better Angels,8.2
+11,8,Alibi,7.8
+11,9,Gut Check,8.2
+11,10,Devil's Triad,8.2
+11,11,Homesick,7.5
+11,12,Kill Chain,7.6
+11,13,Double Back,7.8
+11,14,Monsters and Men,7.7
+11,15,Bulletproof,7.4
+11,16,Dressed to Kill,7.7
+11,17,Rock and a Hard Place,7.4
+11,18,Crescent City: Part 1,7.5
+11,19,Crescent City: Part 2,7.6
+11,20,Page Not Found,7.7
+11,21,Alleged,7.7
+11,22,Shooter,8.0
+11,23,The Admiral's Daughter,8.0
+11,24,Honor Thy Father,8.7
+12,1,Twenty Klicks,8.2
+12,2,Kill the Messenger,7.7
+12,3,So It Goes,8.4
+12,4,Choke Hold,8.1
+12,5,The San Dominick,8.1
+12,6,Parental Guidance Suggested,8.2
+12,7,The Searchers,8.1
+12,8,Semper Fortis,8.1
+12,9,Grounded,8.4
+12,10,House Rules,8.0
+12,11,Check,8.7
+12,12,The Enemy Within,7.8
+12,13,"We Build, We Fight",7.7
+12,14,Cadence,8.0
+12,15,Cabin Fever,8.2
+12,16,Blast from the Past,7.7
+12,17,The Artful Dodger,7.8
+12,18,Status Update,8.0
+12,19,Patience,7.8
+12,20,No Good Deed,7.4
+12,21,Lost in Translation,7.9
+12,22,Troll,8.0
+12,23,The Lost Boys,8.6
+12,24,Neverland,8.4
+13,1,Stop the Bleeding,8.3
+13,2,Personal Day,7.8
+13,3,Incognito,7.9
+13,4,Double Trouble,7.7
+13,5,Lockdown,8.1
+13,6,Viral,7.7
+13,7,16 Years,8.1
+13,8,Saviors,8.4
+13,9,Day in Court,8.0
+13,10,Blood Brothers,8.0
+13,11,Spinning Wheel,8.8
+13,12,"Sister City, Part I",8.0
+13,13,Déjà Vu,7.7
+13,14,Decompressed,7.7
+13,15,React,8.1
+13,16,Loose Cannons,8.0
+13,17,After Hours,8.1
+13,18,Scope,8.7
+13,19,Reasonable Doubts,8.2
+13,20,Charade,8.1
+13,21,Return to Sender,8.0
+13,22,Homefront,8.0
+13,23,Dead Letter,8.4
+13,24,Family First,9.2
+14,1,Rogue,7.6
+14,2,Being Bad,7.5
+14,3,Privileged Information,7.5
+14,4,Love Boat,7.4
+14,5,Philly,7.3
+14,6,Shell Game,7.4
+14,7,Home of the Brave,7.5
+14,8,Enemy Combatant,7.4
+14,9,Pay to Play,7.3
+14,10,The Tie That Binds,8.0
+14,11,Willoughby,7.9
+14,12,Off the Grid,7.7
+14,13,Keep Going,9.2
+14,14,Nonstop,7.6
+14,15,"Pandora's Box, Part I",7.9
+14,16,A Many Splendored Thing,7.5
+14,17,What Lies Above,8.0
+14,18,M.I.A.,8.1
+14,19,The Wall,7.6
+14,20,A Bowl of Cherries,7.5
+14,21,"One Book, Two Covers",7.4
+14,22,Beastmaster,7.5
+14,23,Something Blue,8.2
+14,24,Rendezvous,8.0
+15,1,House Divided,8.2
+15,2,Twofer,7.7
+15,3,Exit Strategy,7.7
+15,4,Skeleton Crew,7.8
+15,5,Fake It 'Til You Make It,7.6
+15,6,Trapped,7.5
+15,7,Burden of Proof,8.2
+15,8,Voices,7.9
+15,9,Ready or Not,7.4
+15,10,Double Down,7.6
+15,11,High Tide,8.1
+15,12,Dark Secrets,7.9
+15,13,Family Ties,7.7
+15,14,Keep Your Friends Close,8.0
+15,15,Keep Your Enemies Closer,8.1
+15,16,Handle with Care,8.0
+15,17,One Man's Trash,7.7
+15,18,Death From Above,8.2
+15,19,The Numerical Limit,7.6
+15,20,Sight Unseen,7.8
+15,21,One Step Forward,7.8
+15,22,Two Steps Back,8.3
+15,23,Fallout,7.6
+15,24,Date with Destiny,8.2
+16,1,Destiny's Child,8.0
+16,2,Love Thy Neighbor,7.8
+16,3,Boom,7.7
+16,4,Third Wheel,8.0
+16,5,Fragments,8.4
+16,6,Beneath the Surface,7.9
+16,7,A Thousand Words,7.7
+16,8,Friendly Fire,7.9
+16,9,Tailing Angie,7.7
+16,10,What Child is This?,7.9
+16,11,Toil and Trouble,8.0
+16,12,The Last Link,8.0
+16,13,She,9.1
+16,14,Once Upon A Tim,8.3
+16,15,Crossing the Line,7.6
+16,16,Bears and Cubs,7.7
+16,17,Silent Service,8.0
+16,18,Mona Lisa,8.3
+16,19,Perennial,7.8
+16,20,Hail & Farewell,8.2
+16,21,"Judge, Jury...",8.2
+16,22,...and Executioner,8.3
+16,23,Lost Time,8.0
+16,24,Daughters,8.1
+17,1,Out of the Darkness,8.3
+17,2,Into the Light,8.2
+17,3,Going Mobile,7.5
+17,4,Someone Else's Shoes,7.9
+17,5,Wide Awake,7.7
+17,6,Institutionalized,7.3
+17,7,No Vacancy,7.8
+17,8,Musical Chairs,7.8
+17,9,IRL,8.4
+17,10,The North Pole,8.5
+17,11,In the Wind,8.6
+17,12,Flight Plan,8.1
+17,13,Sound Off,7.8
+17,14,On Fire,8.4
+17,15,Lonely Hearts,7.7
+17,16,Ephemera,8.3
+17,17,In a Nutshell,7.8
+17,18,Schooled,7.7
+17,19,Blarney,7.6
+17,20,The Arizona,9.0
+18,1,Sturgeon Season,7.2
+18,2,Everything Starts Somewhere,8.6
+18,3,Blood and Treasure,7.8
+18,4,Sunburn,7.9
+18,5,Head of the Snake,8.5
+18,6,1mm,7.8
+18,7,The First Day,8.0
+18,8,True Believer,7.4
+18,9,Winter Chill,7.9
+18,10,Watchdog,7.5
+18,11,Gut Punch,6.9
+18,12,Sangre,7.8
+18,13,Misconduct,7.6
+18,14,Unseen Improvements,8.1
+18,15,Blown Away,7.9
+18,16,Rule 91,8.2
+19,1,Blood in the Water,8.2
+19,2,Nearly Departed,8.5
+19,3,Road to Nowhere,7.9
+19,4,Great Wide Open,8.9
+19,5,Face the Strange,7.9
+19,6,False Start,7.3
+19,7,Docked,7.9
+19,8,Peacekeeper,7.3
+19,9,Collective Memory,7.4
+19,10,Pledge of Allegiance,7.6
+19,11,All Hands,8.0
+19,12,Fight or Flight,7.4
+19,13,The Helpers,7.7
+19,14,First Steps,6.9
+19,15,Thick as Thieves,7.7
+19,16,The Wake,7.5
+19,17,Starting Over,7.5
+19,18,Last Dance,7.8
+19,19,The Brat Pack,7.6
+19,20,All or Nothing,7.9
+19,21,Birds of a Feather,8.3
+20,1,A Family Matter,7.8
+20,2,Daddy Issues,7.5
+20,3,Unearth,7.8
+20,4,Leave No Trace,7.6
+20,5,Guardian,7.9
+20,6,The Good Fighter,7.1
+20,7,Love Lost,7.5
+20,8,Turkey Trot,6.9

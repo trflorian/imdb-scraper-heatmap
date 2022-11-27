@@ -33,8 +33,8 @@ def main():
                 imdb_entry = sc.search(search_text=query, search_type=None)[0]
                 title = imdb_entry.title
                 if imdb_entry.type != 'tv':
-                    print(f'Found imdb entry {title} is not a series.')
-                    return
+                    print(f'Found imdb entry id="{imdb_entry.id}" name="{title}" type="{imdb_entry.type}" is not a series.')
+                    continue
                 episodes = sc.get_all_episodes(imdb_entry.id)
 
             df = episodes_to_df(episodes)

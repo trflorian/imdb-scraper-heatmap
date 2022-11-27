@@ -20,12 +20,9 @@ def episodes_to_df(episodes: List[Episode]) -> pd.DataFrame:
 def df_to_episodes(df: pd.DataFrame) -> List[Episode]:
     episodes = []
     for _, row in df.iterrows():
-        # indexing in df starts at 1, convert to 0-indexing
-        sid = int(row['season'])-1
-        eid = int(row['episode'])-1
         episodes.append(Episode(
-            season_num=sid,
-            episode_num=eid,
+            season_num=int(row['season']),
+            episode_num=int(row['episode']),
             name=row['name'],
             rating=row['rating'],
         ))

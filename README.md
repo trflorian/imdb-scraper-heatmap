@@ -10,7 +10,7 @@ Feel free to message me if the scraper doesn't work anymore or create a pull req
 
 | ![](examples/img/Dark.png)  |  ![](examples/img/Breaking_Bad.png)  |
 |---------|-----|
-| ![](examples/img/Game_Of_Thrones.png) | ![](examples/img/Navy_CIS.png) |
+| ![](examples/img/Game_Of_Thrones.png) | ![](examples/img/NCIS_Naval_Criminal_Investigative_Service.png) |
 
 ## Examples
 

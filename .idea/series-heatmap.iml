@@ -6,7 +6,7 @@
       <excludeFolder url="file://$MODULE_DIR$/dist" />
       <excludeFolder url="file://$MODULE_DIR$/imdb_heatmap.egg-info" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.9 (imdb-scraper)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.9 (series-heatmap)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

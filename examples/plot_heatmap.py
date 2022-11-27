@@ -4,8 +4,8 @@ import os
 import pandas as pd
 from tqdm import tqdm
 
-from imdb_heatmap.heatmap import heatmap_plot
-from imdb_heatmap.serializer import df_to_episodes
+from seriesheatmap.heatmap import heatmap_plot
+from seriesheatmap.serializer import df_to_episodes
 
 
 def to_fn(series: str) -> str:

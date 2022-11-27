@@ -3,7 +3,7 @@ requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "imdb_heatmap"
+name = "seriesheatmap"
 description = "Scarper and heatmap plotter for episode ratings of series on IMDB"
 version = "0.0.1"
 authors = [{ name="Florian Trautweiler", email="florian.trautweiler@hispeed.ch" }]

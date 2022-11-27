@@ -1,8 +1,8 @@
 import os
 import argparse
 
-from imdb_heatmap.scraper import ImdbScraper
-from imdb_heatmap.serializer import episodes_to_df
+from seriesheatmap.scraper import ImdbScraper
+from seriesheatmap.serializer import episodes_to_df
 
 def main():
     # define and parse args

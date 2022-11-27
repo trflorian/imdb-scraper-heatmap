@@ -1,41 +1,46 @@
+import os
+import argparse
+
 from imdb_heatmap.scraper import ImdbScraper
 from imdb_heatmap.serializer import episodes_to_df
 
-import pandas as pd
-
 def main():
+    # define and parse args
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-n', '--name', type=str, help='name of the series to scrape')
+    parser.add_argument('-f', '--file', type=str, help='path to a file with a list of series to scrape')
+    args = parser.parse_args()
 
-    # Movie/Series to search for
-    # query = 'Breaking Bad'
-    query = 'Dark'
-    # query = 'Prison Break'
-    # query = 'Riverdale'
-    # query = 'Top Gear'
-    # query = 'Navy CIS'
-    # query = 'Money Heist'
-    # query = 'The 100'
-    # query = 'Game Of Thrones'
-    # query = 'The Witcher'
-    # query = 'Shadowhunters'
-    # query = 'Friends'
-    # query = 'The Office'
-    # query = 'The Last Airbender'
-    # query = 'Legends of Korra'
-    # query = 'Arcane'
-    # query = 'Pokemon'
+    # extract query
+    queries = []
 
-    with ImdbScraper() as sc:
-        imdb_entry = sc.search(search_text=query, search_type=None)[0]
-        title = imdb_entry.title
-        if imdb_entry.type != 'tv':
-            print(f'Found imdb entry {title} is not a series.')
-            return
-        episodes = sc.get_all_episodes(imdb_entry.id)
+    if args.name is not None:
+        queries.append(args.name)
 
-    df = episodes_to_df(episodes)
+    if args.file is not None:
+        if not os.path.isfile(args.file):
+            raise ValueError('Supplied argument file does not exist')
 
-    fn = query.replace(' ', '_')
-    df.to_csv(f'examples/data/{fn}.csv', index=False)
+        with open(args.file, 'r') as f:
+            for line in f.readlines():
+                queries.append(line)
+
+    if len(queries) == 0:
+        print('No query supplied. Use --help to see how to usae this command.')
+    else:
+        for query in queries:
+            with ImdbScraper() as sc:
+                imdb_entry = sc.search(search_text=query, search_type=None)[0]
+                title = imdb_entry.title
+                if imdb_entry.type != 'tv':
+                    print(f'Found imdb entry {title} is not a series.')
+                    return
+                episodes = sc.get_all_episodes(imdb_entry.id)
+
+            df = episodes_to_df(episodes)
+
+            fn = title.replace(' ', '_')
+            df.to_csv(f'examples/data/{fn}.csv', index=False)
 
 if __name__ == '__main__':
     main()

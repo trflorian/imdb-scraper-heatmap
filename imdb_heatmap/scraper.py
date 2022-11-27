@@ -12,7 +12,7 @@ from .models import Episode, ImdbEntry
 
 class ImdbScraper:
     timeout = 1
-    max_retries = 10
+    max_retries = 3
     max_episodes = 100
     base_url = 'https://www.imdb.com'
     driver = None
@@ -139,18 +139,26 @@ class ImdbScraper:
 
             if self.variant == 0:
                 year_text = year_elem.text
-                year_splits = year_text.replace(' ', '').split('–')
-                entry_type = 'ft' if len(year_splits) == 1 else 'tv'
-                entry_year = int(year_splits[0])
+                if year_elem is None:
+                    entry_year = 0
+                    entry_type = 'na'
+                else:
+                    year_splits = year_text.replace(' ', '').split('–')
+                    entry_type = 'ft' if len(year_splits) == 1 else 'tv'
+                    entry_year = int(year_splits[0])
             else:
                 info_text = year_elem[0].tail.replace(' ', '')
                 infos = info_text.split('(')
-                entry_year = infos[1][:infos[1].index(')')]
-                if len(infos) == 2:
-                    entry_type = 'ft'
+                if len(infos) == 1:
+                    entry_year = 0
+                    entry_type = 'na'
                 else:
-                    entry_type = infos[2][:infos[2].index(')')]
-                    entry_type = 'tv' if entry_type == 'TVSeries' else 'ft'
+                    entry_year = infos[1][:infos[1].index(')')]
+                    if len(infos) == 2:
+                        entry_type = 'ft'
+                    else:
+                        entry_type = infos[2][:infos[2].index(')')]
+                        entry_type = 'tv' if entry_type == 'TVSeries' else 'ft'
 
             if search_type is not None and search_type != entry_type:
                 print(f'WARNING: found an entry of type {entry_type} but search query was for type {search_type}')

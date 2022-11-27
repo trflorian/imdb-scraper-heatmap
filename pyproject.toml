@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "seriesheatmap"
 version = "0.0.1"
 description = "Scraper and heatmap plotter for episode ratings of series on IMDB"
-license = "MIT"
+license = {file = "LICENSE"}
 authors = [{ name="Florian Trautweiler", email="florian.trautweiler@hispeed.ch" }]
 readme = "README.md"
 requires-python = ">=3.7"
@@ -24,4 +24,6 @@ dependencies = [
     "tqdm",
 ]
 keywords = ["series", "heatmap", "scraper"]
+
+[project.urls]
 repository = "https://github.com/trflorian/imdb-scraper-heatmap"

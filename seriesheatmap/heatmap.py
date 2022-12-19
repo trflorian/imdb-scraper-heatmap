@@ -81,14 +81,14 @@ def heatmap_plot(series_name: str, episodes: List[Episode], show: bool, save_fn:
 
     # save plot to buffer if provided
     if save_buffer is not None:
-        plt.savefig(save_buffer, format=save_buffer_format)
+        plt.savefig(save_buffer, format=save_buffer_format, dpi=dpi)
         save_buffer.seek(0)
 
     # optionally save or display the plot
     if save_fn is not None:
         if dark_mode:
-            plt.savefig(save_fn, facecolor=dark_col)
+            plt.savefig(save_fn, facecolor=dark_col, dpi=dpi)
         else:
-            plt.savefig(save_fn)
+            plt.savefig(save_fn, dpi=dpi)
     if show:
         plt.show()

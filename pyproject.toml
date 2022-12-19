@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "seriesheatmap"
-version = "0.0.2"
+version = "0.0.3"
 description = "Scraper and heatmap plotter for episode ratings of series on IMDB"
 license = {file = "LICENSE"}
 authors = [{ name="Florian Trautweiler", email="florian.trautweiler@hispeed.ch" }]

@@ -74,3 +74,11 @@ optional arguments:
   -n NAME, --name NAME  name of the series, if not set the whole data directory will be scanned
 ```
 
+## Development
+
+
+### Upload to Pypi
+
+```python -m build```
+
+```python -m twine upload --skip-existing dist/*```

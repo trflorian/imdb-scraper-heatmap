@@ -1,3 +1,4 @@
+import gc
 from typing import List
 
 import numpy as np
@@ -48,7 +49,7 @@ def heatmap_plot(series_name: str, episodes: List[Episode], show: bool, save_fn:
     minsize = 2.3
     if minax < minsize:
         figsize = figsize / minax * minsize
-    plt.figure(figsize=figsize, dpi=dpi)
+    fig = plt.figure(figsize=figsize, dpi=dpi)
 
     # dark mode
     if dark_mode:
@@ -92,3 +93,7 @@ def heatmap_plot(series_name: str, episodes: List[Episode], show: bool, save_fn:
             plt.savefig(save_fn, dpi=dpi)
     if show:
         plt.show()
+
+    fig.clf()
+    plt.close()
+    gc.collect()
